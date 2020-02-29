@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-02-23  Vlad Shcherban
+ * updated kidoz to ios 1.3.4.1 no ad id
+
 ##### 2020-01-06  Vlad Shcherban
  * Updated Kidoz to 8.8.5
 

@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-02-23  Vlad Shcherban
+ * Added version with dynamic frameworks for iOS
+
 ##### 2020-02-13  Vlad Shcherban
  * upating to latest libs
 
