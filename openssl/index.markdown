@@ -50,8 +50,8 @@ settings =
 
 ## Support
 
-* [Corona Forums](http://forums.coronalabs.com/forum/631-corona-premium-plugins/)
+* [Solar2D Forums](https://forums.solar2d.com/c/corona-marketplace/corona-premium-plugins/)
 
 ## Examples
 
-* [Corona Samples](https://github.com/coronalabs/plugins-sample-openssl)
+* [Solar2D Samples](https://github.com/coronalabs/plugins-sample-openssl)
