@@ -12,17 +12,6 @@
 
 The Unity Ads plugin allows developers to monetize users through Unity Ads video interstitial and rewarded video ads.
 
-<div class="docs-tip-outer docs-tip-color-alert">
-<div class="docs-tip-inner-left">
-<div class="fa fa-unlock-alt" style="font-size: 36px; margin-top: 2px; margin-left: 1px;"></div>
-</div>
-<div class="docs-tip-inner-right">
-
-The Unity Ads plugin is only available to users who have purchased the [Corona Professional Bundle](https://marketplace.coronalabs.com/products/corona-pro) or the [Unity Ads](https://marketplace.coronalabs.com/plugin/unity-ads) plugin. This plugin lets you keep 100% of your ad revenue and allows you to manage your account/settings with Unity&nbsp;Ads directly.
-
-</div>
-</div>
-
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
@@ -99,4 +88,4 @@ For Android, the following permissions/features are automatically added when usi
 ## Support
 
 * [https://unity3d.com/services/ads](https://unity3d.com/services/ads)
-* [Corona Forums](http://forums.coronalabs.com/forum/545-monetization-in-app-purchases-ads-etc/)
+* [Solar2D Forums](https://forums.solar2d.com/c/corona/monetization-in-app-purchases-ads-etc/)
