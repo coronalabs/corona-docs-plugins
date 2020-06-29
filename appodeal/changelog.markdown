@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-06-25  Vlad Shcherban
+ * Updated version in docs
+
 ##### 2020-02-29  Vlad Svoka
  * index.markdown edited online with Bitbucket
 

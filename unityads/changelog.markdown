@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-04-20  Vlad Shcherban
+ * unityads 3.4.2
+
 ##### 2019-07-15  Vlad Shcherban
  * Updated Unityads to 3.1
 

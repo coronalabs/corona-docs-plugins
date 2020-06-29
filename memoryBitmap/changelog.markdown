@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-06-25  Vlad Shcherban
+ * Adding new version
+
 ##### 2019-06-15  Vlad Shcherban
  * Added other architectures
 

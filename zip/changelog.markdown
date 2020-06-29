@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-06-25  Vlad Shcherban
+ * Adding new version
+
 ##### 2019-11-21  Vlad Shcherban
  * iOS: Hiding all symbols except required
 

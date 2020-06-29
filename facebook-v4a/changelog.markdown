@@ -1,4 +1,10 @@
 # Changelog
+##### 2020-06-25  Vlad Shcherban
+ * removing patrial bitcode
+
+##### 2020-06-25  Vlad Shcherban
+ * updating facebook plugin
+
 ##### 2020-02-07  Vlad Shcherban
  * updated  to shared libs
 

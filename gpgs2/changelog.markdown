@@ -1,4 +1,7 @@
 # Changelog
+##### 2020-03-03  Vlad Shcherban
+ * Trying to fix crashes
+
 ##### 2019-04-05  Vlad Shcherban
  * More crash fixes
 

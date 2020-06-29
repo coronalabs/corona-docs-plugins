@@ -1,4 +1,16 @@
 # Changelog
+##### 2020-03-21  Vlad Shcherban
+ * updated
+
+##### 2020-03-20  Vlad Shcherban
+ * Adding offerwall and reward modes
+
+##### 2020-03-20  Vlad Shcherban
+ * Pollfish moved as static lib it is
+
+##### 2020-03-20  Vlad Shcherban
+ * Pollfish 5.3.3
+
 ##### 2019-07-12  Vlad Svoka
  * metadata.lua edited online with Bitbucket
 

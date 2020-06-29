@@ -1,4 +1,10 @@
 # Changelog
+##### 2020-06-24  Vlad Shcherban
+ * Updating some methods
+
+##### 2020-04-20  Vlad Shcherban
+ * Updating to 5.2.0
+
 ##### 2019-08-30  Vlad Shcherban
  * docs update
 

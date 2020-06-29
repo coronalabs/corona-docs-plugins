@@ -51,6 +51,8 @@ If you choose not to accept the Terms of Service, Facebook Mobile Ads installs a
 
 #### [appsflyer.logPurchase()][plugin.appsflyer.logPurchase]
 
+#### [appsflyer.getAppsFlyerUID()][plugin.appsflyer.getAppsFlyerUID]
+
 
 ## Events
 

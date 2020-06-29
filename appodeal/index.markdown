@@ -36,7 +36,7 @@ Beta version of Corona Appodeal plugin is now available! Check latest note in Pr
 Current plugin versions are:
 
 * Stable plugin: `2.5.10` for Android and `2.5.13` for iOS
-* Beta plugin: `2.6.2` for both Android and iOS, using daily build `2020.3569` or later. This is recommended plugin to use.
+* Beta plugin: `2.6.4` for both Android and iOS (if using daily build `2020.3569` or later).
 
 </div>
 

@@ -1,4 +1,10 @@
 # Changelog
+##### 2020-03-08  Vlad Shcherban
+ * ios 1.3.5, no IDFA
+
+##### 2020-03-04  Vlad Shcherban
+ * KidozSDK-Corona-0.8.8.7
+
 ##### 2020-02-23  Vlad Shcherban
  * updated kidoz to ios 1.3.4.1 no ad id
 
