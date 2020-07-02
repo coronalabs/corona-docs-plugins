@@ -76,8 +76,9 @@ settings =
 		plist = 
 		{
 			 GADApplicationIdentifier = "[YOUR_ADMOB_APP_ID]",  -- replace with your app id. https://developers.google.com/admob/ios/quick-start#update_your_infoplist
-		}
-	}
+		},
+	},
+	
 	plugins =
 	{
 		["plugin.admob"] =
