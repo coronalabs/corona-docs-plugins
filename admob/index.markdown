@@ -13,17 +13,6 @@
 
 The AdMob plugin allows developers to monetize users through AdMob static interstitial ads, video interstitial ads, rewarded video ads, and banner ads.
 
-<div class="docs-tip-outer docs-tip-color-alert">
-<div class="docs-tip-inner-left">
-<div class="fa fa-unlock-alt" style="font-size: 36px; margin-top: 2px; margin-left: 1px;"></div>
-</div>
-<div class="docs-tip-inner-right">
-
-The AdMob plugin is only available to users who have purchased the [Corona Professional Bundle](https://marketplace.coronalabs.com/products/corona-pro) or the [AdMob](https://marketplace.coronalabs.com/plugin/admob) plugin. This plugin lets you keep 100% of your ad revenue and allows you to manage your account/settings with AdMob directly.
-
-</div>
-</div>
-
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
@@ -81,6 +70,15 @@ settings =
 			]],
 		},
 	},
+	
+	iphone = 
+	{
+		plist = 
+		{
+			 GADApplicationIdentifier = "[YOUR_ADMOB_APP_ID]",  -- replace with your app id. https://developers.google.com/admob/ios/quick-start#update_your_infoplist
+		},
+	},
+	
 	plugins =
 	{
 		["plugin.admob"] =
