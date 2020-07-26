@@ -65,7 +65,7 @@
 
 <div class="guide-intro">
 
-The following documentation will help you use <nobr>Corona-supported</nobr> plugins in CORONA_CORE_PRODUCT and CORONA_NATIVE_PRODUCT.
+The following documentation will help you use CORONA_CORE_PRODUCT supported plugins in CORONA_CORE_PRODUCT and CORONA_NATIVE_PRODUCT.
 
 </div>
 
@@ -75,7 +75,7 @@ The following documentation will help you use <nobr>Corona-supported</nobr> plug
 </div>
 <div class="docs-tip-inner-right">
 
-In addition to the <nobr>Corona-supported</nobr> plugins below, a large selection of <nobr>third-party</nobr> plugins are available in the [Corona Marketplace](https://marketplace.coronalabs.com/plugins).
+In addition to the CORONA_CORE_PRODUCT supported plugins below, a large selection of <nobr>third-party</nobr> plugins are also available in the [Free Plugins Directory](PLUGINS_DIR) and other third-party marketplaces such as [Solar2D Marketplace](https://solar2dmarketplace.com/) and [Solar2D Plugins](https://www.solar2dplugins.com/).
 
 </div>
 </div>
@@ -275,7 +275,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 * [Battery State][plugin.batteryState]
 * [Bit][plugin.bit]
 * [Collision Filters][plugin.collisionFilters]
-* [Corona Splash Control][plugin.CoronaSplashControl]
+* [Splash Screen Control][plugin.CoronaSplashControl]
 * [HockeyApp][plugin.hockey]
 * [iCloud][plugin.iCloud]
 * [iTunes][plugin.iTunes]
@@ -345,6 +345,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 ## In-App Purchasing
 
 #### [Amazon IAP][plugin.amazon-iap-v2]
+#### [Apple IAP][plugin.apple-iap]
 #### [Google IAP][plugin.google-iap-v3]
 
 ## Security
