@@ -212,6 +212,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 </div>
 
 * [Amazon IAP][plugin.amazon-iap-v2]
+* [Apple IAP][plugin.apple-iap]
 * [Google IAP][plugin.google-iap-v3]
 
 <div class="clear"></div>
