@@ -368,7 +368,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 #### [Battery State][plugin.batteryState]
 #### [Bit][plugin.bit]
 #### [Collision Filters][plugin.collisionFilters]
-#### [Corona Splash Control][plugin.CoronaSplashControl]
+#### [Splash Screen Control][plugin.CoronaSplashControl]
 #### [HockeyApp][plugin.hockey]
 #### [iCloud][plugin.iCloud]
 #### [iTunes][plugin.iTunes]
