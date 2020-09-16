@@ -21,9 +21,11 @@ This plugin implements what you need when Ad provider asks you to implement some
   })
 ```
 
-## build.settings
+## Project Settings
 
-```
+To use this plugin your `build.settings` should contain following entries:
+
+``````lua
 settings = 
 {
 	iphone =
@@ -38,8 +40,7 @@ settings =
 		['plugin.att'] = { publisherId = 'com.solar2d' },
 	}
 }
-
-```
+``````
 
 ## Syntax
 
@@ -51,15 +52,17 @@ settings =
 
 #### [att.status)][plugin.att.status]
 
+## Example
 
-```
+``````lua
 local att = require "plugin.att"
 
 local status = att.status
 local statusText = display.newText( status, display.contentCenterX, display.contentCenterY*0.5, nil, 14 )
 
-local eventText = display.newText( "tap to request", display.contentCenterX, display.contentCenterY*1.5, display.contentWidth*0.5, display.contentHeight*0.25, nil, 14 )
 
+
+local eventText = display.newText( "tap to request", display.contentCenterX, display.contentCenterY*1.5, display.contentWidth*0.5, display.contentHeight*0.25, nil, 14 )
 
 local function attListener(e)
 	eventText.text = "Status is " .. tostring(e.status)
@@ -70,5 +73,4 @@ local function tapListener()
 end
 
 Runtime:addEventListener( "tap", tapListener)
-
-```
+``````
