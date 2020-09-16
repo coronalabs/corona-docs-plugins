@@ -280,6 +280,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 * [HockeyApp][plugin.hockey]
 * [iCloud][plugin.iCloud]
 * [iTunes][plugin.iTunes]
+* [App Tracking Transparency][plugin.att]
 
 </span>
 
