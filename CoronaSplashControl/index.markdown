@@ -3,21 +3,19 @@
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__				(special)
 > __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          Corona Splash Control, splash screen
+> __Keywords__          Splash Screen Control, splash screen
 > __Platforms__         Android, iOS
 > --------------------- ------------------------------------------------------------------------------------------
 
 
 ## Overview
 
-This special plugin, if [purchased/activated](https://marketplace.coronalabs.com/plugin/com.coronalabs/plugin.CoronaSplashControl), enables control of the default <nobr>Corona-branded</nobr> splash screen that is displayed when apps start up on a device. Rather than adding capabilities to Lua code, this plugin enables the ability to control the splash screen from within `build.settings`.
+This special plugin, enables control of the default CORONA_CORE_PRODUCT branded splash screen that is displayed when apps start up on a device. Rather than adding capabilities to Lua code, this plugin enables the ability to control the splash screen from within `build.settings`.
 
 <div class="guide-notebox">
-<div class="notebox-title">Notes</div>
+<div class="notebox-title">Note</div>
 
-* It is not necessary to add this plugin to the `plugins` table of `build.settings`. The significant factor is whether the plugin is activated for the user account performing a build.
-
-* On iOS, the iOS launch screen will appear before the Corona splash screen, assuming the splash screen is not disabled. If the Corona splash screen is disabled, the launch screen will appear until the app is fully loaded, then your first screen/scene will appear.
+* On iOS, the iOS launch screen will appear before the splash screen, assuming the splash screen is not disabled. If the splash screen is disabled, the launch screen will appear until the app is fully loaded, then your first screen/scene will appear.
 
 </div>
 
@@ -26,7 +24,7 @@ This special plugin, if [purchased/activated](https://marketplace.coronalabs.com
 
 ### Splash Screen Removal
 
-For the simplest case of removing the Corona splash screen, all you need to do is [activate the plugin](https://marketplace.coronalabs.com/plugin/com.coronalabs/plugin.CoronaSplashControl) and add the `splashScreen` table to the project's `build.settings` with the `enable` key set to `false`:
+To remove splash screen, add the `splashScreen` table to the project's `build.settings` with the `enable` key set to `false`:
 
 ``````lua
 settings =
