@@ -57,7 +57,7 @@ Before you can use this plugin, you must [register](https://www.google.com/admob
 
 To use this plugin, add an entry into the `plugins` table of `build.settings`. When added, the build server will integrate the plugin during the build phase.
 
-``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8,9,10,11,15,16,17,18]" }
+``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8,9,10,11,16,17,18,19,24,25,26,27]" }
 settings =
 {
 	android =
