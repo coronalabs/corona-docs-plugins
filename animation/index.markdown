@@ -66,3 +66,28 @@ The animation plugin provides functions and methods to move, rotate, fade, or sc
 #### [animation.setSpeedScale()][plugin.animation.setSpeedScale]
 
 #### [animation.getAnimations()][plugin.animation.getAnimations]
+
+
+## Project Settings
+
+To use this plugin, add an entry into the `plugins` table of `build.settings`.
+
+``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8]" }
+settings =
+{
+	plugins =
+	{
+		["plugin.animation"] =
+		{
+			publisherId = "com.coronalabs"
+		},
+	},
+}
+``````
+
+## Source
+
+* [View on GitHub](https://github.com/coronalabs/framework-animation)
+
+If you want to add, modify or extend functionality, download the source code from GitHub and include in your project(See [Using External Modules][tutorial.basics.externalModules]).
+
