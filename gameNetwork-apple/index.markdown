@@ -6,16 +6,17 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          gameNetwork, Game Center
 > __Platforms__			iOS
+> __Source__		[https://github.com/coronalabs/plugins-source-gamenetwork-apple](https://github.com/coronalabs/plugins-source-gamenetwork-apple)
 > __Sample__			[https://github.com/coronalabs/plugins-sample-gamenetwork-apple](https://github.com/coronalabs/plugins-sample-gamenetwork-apple)
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-[Game Center](https://developer.apple.com/game-center/) lets friends in on the action with leaderboards and achievements. The nomenclature used in the Corona APIs for Game Center attempt to match the official Game Center APIs as much as possible, allowing you to <nobr>cross-reference</nobr> with official Game Center documentation.
+[Game Center](https://developer.apple.com/game-center/) lets friends in on the action with leaderboards and achievements. The nomenclature used in the CORONA_CORE_PRODUCT APIs for Game Center attempt to match the official Game Center APIs as much as possible, allowing you to <nobr>cross-reference</nobr> with official Game Center documentation.
 
 ## Gotchas
 
-Game Center is not supported in the Corona Simulator.
+Game Center is not supported in the simulator.
 
 ## Syntax
 
