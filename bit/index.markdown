@@ -1,7 +1,7 @@
 # bit.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          bit
 > __Platforms__			Android, iOS, macOS, Windows
@@ -39,7 +39,6 @@ settings =
 
 [http://bitop.luajit.org/api.html](http://bitop.luajit.org/api.html)
 
+## Source
 
-## Support
-
-* [Corona Forums](http://forums.coronalabs.com/forum/631-corona-premium-plugins/)
+* [View on GitHub](https://github.com/coronalabs/com.coronalabs-plugin.bit)
