@@ -11,17 +11,6 @@
 
 The AdColony plugin allows developers to monetize users through [AdColony](http://www.adcolony.com) video interstitial and rewarded video ads.
 
-<div class="docs-tip-outer docs-tip-color-alert">
-<div class="docs-tip-inner-left">
-<div class="fa fa-unlock-alt" style="font-size: 36px; margin-top: 2px; margin-left: 1px;"></div>
-</div>
-<div class="docs-tip-inner-right">
-
-The AdColony plugin is only available to users who have purchased the [Corona Professional Bundle](https://marketplace.coronalabs.com/products/corona-pro) or the [AdColony](https://marketplace.coronalabs.com/plugin/adcolony) plugin. This plugin lets you keep 100% of your ad revenue and allows you to manage your account/settings with AdColony directly.
-
-</div>
-</div>
-
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
@@ -134,4 +123,4 @@ In addition, you can add the following optional permissions:
 ## Support
 
 * [http://support.adcolony.com/](http://support.adcolony.com/)
-* [Corona Forums](http://forums.coronalabs.com/forum/545-monetization-in-app-purchases-ads-etc/)
+* [Forums](https://forums.solar2d.com/c/corona/monetization-in-app-purchases-ads-etc/42)
