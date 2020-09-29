@@ -11,17 +11,6 @@
 
 The Chartboost plugin allows developers to monetize users through [Chartboost](https://www.chartboost.com) static interstitial, video interstitial, rewarded video ads, and more.
 
-<div class="docs-tip-outer docs-tip-color-alert">
-<div class="docs-tip-inner-left">
-<div class="fa fa-unlock-alt" style="font-size: 36px; margin-top: 2px; margin-left: 1px;"></div>
-</div>
-<div class="docs-tip-inner-right">
-
-The Chartboost plugin is only available to users who have purchased the [Corona Professional Bundle](https://marketplace.coronalabs.com/products/corona-pro) or the [Chartboost](https://marketplace.coronalabs.com/plugin/chartboost) plugin. This plugin lets you keep 100% of your ad revenue and allows you to manage your account/settings with Chartboost directly.
-
-</div>
-</div>
-
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
@@ -102,4 +91,4 @@ In addition, you can add the following optional (but&nbsp;recommended) permissio
 ## Support
 
 * [https://answers.chartboost.com/](https://answers.chartboost.com/)
-* [Corona Forums](http://forums.coronalabs.com/forum/545-monetization-in-app-purchases-ads-etc/)
+* [Forums](https://forums.solar2d.com/c/corona/monetization-in-app-purchases-ads-etc/42)
