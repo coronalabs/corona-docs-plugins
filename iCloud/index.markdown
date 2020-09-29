@@ -10,7 +10,7 @@
 
 ## Overview
 
-The [iCloud plugin](https://marketplace.coronalabs.com/plugin/iCloud) enables access to Apple's iCloud APIs and provides instruments to synchronize data across a user's devices.
+The iCloud plugin enables access to Apple's iCloud APIs and provides instruments to synchronize data across a user's devices.
 
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
@@ -87,7 +87,7 @@ In addition to the steps above, if you want to use Documents in iCloud or CloudK
 
 ### Sharing Data
 
-For Documents in iCloud and CloudKit, you can share the data between multiple apps. This is facilitated by associating a dedicated [iCloud Container](#containers) with each app via the [Apple Developer](https://developer.apple.com/) portal as outlined in the steps above. From that point, Corona will automatically extract the container information during the build process for each platform in which `iCloud` is set to `true`:
+For Documents in iCloud and CloudKit, you can share the data between multiple apps. This is facilitated by associating a dedicated [iCloud Container](#containers) with each app via the [Apple Developer](https://developer.apple.com/) portal as outlined in the steps above. From that point, CORONA_CORE_PRODUCT will automatically extract the container information during the build process for each platform in which `iCloud` is set to `true`:
 
 ``````lua
 settings =
