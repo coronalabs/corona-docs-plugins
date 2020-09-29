@@ -9,16 +9,16 @@
 
 ## Overview
 
-The [Amazon IAP](https://marketplace.coronalabs.com/plugin/amazon-iap) plugin lets you sell digital content and subscriptions from within your apps, including <nobr>in-game</nobr> currency, expansion packs, upgrades, magazine issues, and more.
+The Amazon IAP plugin lets you sell digital content and subscriptions from within your apps, including <nobr>in-game</nobr> currency, expansion packs, upgrades, magazine issues, and more.
 
 <div class="guide-notebox">
 <div class="notebox-title">Notes</div>
 
 * This plugin corresponds to <nobr>Amazon IAP v2</nobr>. If you are migrating from the previous version to v2, please see the [migration][plugin.amazon-iap-v2.migration] page for a summary of changes.
 
-* If you're new to <nobr>Amazon In-App Purchasing</nobr>, read Amazon's [Understanding In-App Purchasing](https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/understanding-in-app-purchasing) guide.
+* If you're new to <nobr>Amazon In-App Purchasing</nobr>, read Amazon's [In-App Purchasing Overview](https://developer.amazon.com/docs/in-app-purchasing/iap-overview.html) guide.
 
-* You must install the [Amazon App Tester](https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/installing-and-configuring-app-tester) or publish your app in the Amazon Appstore to use this plugin. Details on testing can be found [here](https://developer.amazon.com/public/apis/earn/in-app-purchasing/docs-v2/testing-iap-2.0).
+* You must install the [Amazon App Tester](https://developer.amazon.com/docs/in-app-purchasing/iap-install-and-configure-app-tester.html) or publish your app in the Amazon Appstore to use this plugin. Details on testing can be found [here](https://developer.amazon.com/docs/in-app-purchasing/iap-testing-overview.html).
 
 </div>
 
@@ -28,7 +28,7 @@ The [Amazon IAP](https://marketplace.coronalabs.com/plugin/amazon-iap) plugin le
 </div>
 <div class="docs-tip-inner-right">
 
-For in-app purchasing on other platforms, see the documentation for [Google IAP][plugin.google-iap-v3] or [Apple IAP][api.library.store].
+For in-app purchasing on other platforms, see the documentation for [Google IAP][plugin.google-iap-v3], [Apple IAP][plugin.apple-iap] or [Store API][api.library.store].
 
 </div>
 </div>
