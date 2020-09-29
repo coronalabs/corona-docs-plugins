@@ -9,17 +9,17 @@
 
 ## Overview
 
-The [Steamworks](https://marketplace.coronalabs.com/plugin/steamworks) plugin is intended for desktop games uploaded to Steam. It is used to handle achievements, player stats, leaderboards, and to show <nobr>in-app</nobr> overlays.
+The Steamworks plugin is intended for desktop games uploaded to Steam. It is used to handle achievements, player stats, leaderboards, and to show <nobr>in-app</nobr> overlays.
 
 
 ## Gotchas
 
-The Steamworks plugin can be used in the Corona Simulator, but it has the following limitations/issues:
+The Steamworks plugin can be used in the CORONA_CORE_PRODUCT Simulator, but it has the following limitations/issues:
 
-* On Mac, Steam overlays will not appear unless the Corona&nbsp;Simulator is launched from the Steam client and a system preference is set. See the [Overlay Troubleshooting][plugin.steamworks.guide.overlays] guide for more details.
+* On Mac, Steam overlays will not appear unless CORONA_CORE_PRODUCT Simulator is launched from the Steam client and a system preference is set. See the [Overlay Troubleshooting][plugin.steamworks.guide.overlays] guide for more details.
 * On Windows, overlays will not display correctly when using a device skin. You should simulate with a borderless window instead.
-* You must exit the Corona Simulator application when testing with a different Steam AppID.
-* Exiting the Steam client will automatically terminate the Corona Simulator application if you load the Steamworks plugin at least once.
+* You must exit the CORONA_CORE_PRODUCT Simulator application when testing with a different Steam AppID.
+* Exiting the Steam client will automatically terminate the CORONA_CORE_PRODUCT Simulator application if you load the Steamworks plugin at least once.
 
 
 <a id="project-settings"></a>
