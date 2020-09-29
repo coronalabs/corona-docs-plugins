@@ -273,6 +273,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 * [Address Book][plugin.CoronaProvider_native_popup_addressbook]
 * [Advertising ID][plugin.advertisingId]
 * [Animation][plugin.animation]
+* [App Tracking Transparency][plugin.att]
 * [Battery State][plugin.batteryState]
 * [Bit][plugin.bit]
 * [Collision Filters][plugin.collisionFilters]
@@ -280,7 +281,6 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 * [HockeyApp][plugin.hockey]
 * [iCloud][plugin.iCloud]
 * [iTunes][plugin.iTunes]
-* [App Tracking Transparency][plugin.att]
 
 </span>
 
@@ -366,6 +366,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 #### [Address Book][plugin.CoronaProvider_native_popup_addressbook]
 #### [Advertising ID][plugin.advertisingId]
 #### [Animation][plugin.animation]
+#### [App Tracking Transparency][plugin.att]
 #### [Battery State][plugin.batteryState]
 #### [Bit][plugin.bit]
 #### [Collision Filters][plugin.collisionFilters]
