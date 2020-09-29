@@ -12,7 +12,7 @@
 ## Overview
 
 
-The [Flurry Analytics](https://marketplace.coronalabs.com/plugin/flurry-analytics) plugin allows you to track the usage and behavior of your application in the [Flurry](https://dev.flurry.com/) system. Optional crash analytics are also available which allow you to monitor system crashes and unhandled events.
+The Flurry Analytics plugin allows you to track the usage and behavior of your application in the [Flurry](https://dev.flurry.com/) system. Optional crash analytics are also available which allow you to monitor system crashes and unhandled events.
 
 
 ## Syntax
