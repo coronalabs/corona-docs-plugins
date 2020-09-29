@@ -6,8 +6,6 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          gameNetwork, Game Center
 > __Platforms__			iOS
-> __Source__		[https://github.com/coronalabs/plugins-source-gamenetwork-apple](https://github.com/coronalabs/plugins-source-gamenetwork-apple)
-> __Sample__			[https://github.com/coronalabs/plugins-sample-gamenetwork-apple](https://github.com/coronalabs/plugins-sample-gamenetwork-apple)
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -46,3 +44,10 @@ settings =
 	},
 }
 ``````
+## Sample project
+
+* [View on GitHub](https://github.com/coronalabs/plugins-sample-gamenetwork-apple)
+
+## Source
+
+* [View on GitHub](https://github.com/coronalabs/plugins-source-gamenetwork-apple)
