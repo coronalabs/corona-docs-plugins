@@ -1,6 +1,6 @@
 # Amazon IAP v2 Migration
 
-The current [Amazon IAP](https://marketplace.coronalabs.com/plugin/amazon-iap-v2) plugin corresponds to <nobr>Amazon IAP v2</nobr>. If you are migrating from the previous version to v2, please see the migration notes below.
+The current [Amazon IAP][plugin.amazon-iap-v2] plugin corresponds to <nobr>Amazon IAP v2</nobr>. If you are migrating from the previous version to v2, please see the migration notes below.
 
 ## Differences
 
