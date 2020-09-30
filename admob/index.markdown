@@ -105,6 +105,12 @@ settings =
 
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
+	Add [Apple Tracking Transparency][plugin.att] plugin to your project as well.
+</div>
+
+
+<div class="guide-notebox-imp">
+<div class="notebox-title-imp">Important</div>
 
 If you are building for Android, you should __remove__ any legacy inclusion of the `["plugin.google.play.services"]` plugin from your `build.settings`.
 
