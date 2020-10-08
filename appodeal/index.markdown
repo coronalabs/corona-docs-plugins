@@ -5,7 +5,6 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          ads, advertising, Appodeal
 > __Platforms__			Android, iOS
-> __Sample__			[https://github.com/coronalabs/plugins-sample-appodeal](https://github.com/coronalabs/plugins-sample-appodeal)
 > --------------------- ------------------------------------------------------------------------------------------
 
 
@@ -16,7 +15,7 @@ The Appodeal plugin allows developers to monetize their mobile app with Appodeal
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
-Be warned that plugin builds for Amazon store are restricted at the moment. We are working on the appropriate SDK/plugin update and the ability to publish your apps, which includes Corona Appodeal modular plugin, to Amazon store should become available as soon as possible.
+Be warned that plugin builds for Amazon store are restricted at the moment. We are working on the appropriate SDK/plugin update and the ability to publish your apps, which includes Appodeal modular plugin, to Amazon store should become available as soon as possible.
 
 </div>
 
@@ -30,7 +29,7 @@ Appodeal contains various SDKs for the ad providers it mediates. This means that
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
-Beta version of Corona Appodeal plugin is now available! Check latest note in Project Settings section to learn more.
+Beta version of Appodeal plugin is now available! Check latest note in Project Settings section to learn more.
 
 #### Version info
 Current plugin versions are:
@@ -280,7 +279,7 @@ settings =
 }
 ``````
 
-Please keep in mind, that using beta versions of both Appodeal SDK and Corona Appodeal plugin may cause unexpected issues. We've made a profound tests of a new system, but you should use it at your own risk.
+Please keep in mind, that using beta versions of both Appodeal SDK and CORONA_CORE_PRODUCT Appodeal plugin may cause unexpected issues. We've made a profound tests of a new system, but you should use it at your own risk.
 
 </div>
 
@@ -304,3 +303,7 @@ In addition, if you wish to receive targeted ads in your app and increase your c
 * `"android.permission.ACCESS_FINE_LOCATION"`
 
 </div>
+
+## Sample project
+
+* [View on GitHub](https://github.com/coronalabs/plugins-sample-appodeal)
