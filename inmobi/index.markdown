@@ -14,7 +14,6 @@
 The InMobi plugin allows developers to monetize their mobile app with InMobi banner and static interstitial ads.
 
 <div class="guide-notebox-imp">
-Add a comment to this line
 <div class="notebox-title-imp">Important</div>
 
 Check out new `hasUserConsent`  init parameter to enable GDPR data collection restrictions.
