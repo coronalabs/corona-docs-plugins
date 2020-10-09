@@ -72,7 +72,7 @@ settings =
 	iphone =
 	{
 		plist = {
-			GADApplicationIdentifier = "ca-app-pub-7897780601981890~3573459965",
+			GADApplicationIdentifier = "[YOUR_ADMOB_APP_ID]",
 			SKAdNetworkItems = {
 				{
 					SKAdNetworkIdentifier = "cstr6suwn9.skadnetwork",
@@ -93,7 +93,9 @@ settings =
 
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
-	Add [Apple Tracking Transparency][plugin.att] plugin to your project as well.
+
+Add [App Tracking Transparency][plugin.att] plugin to your project as well.
+
 </div>
 
 
