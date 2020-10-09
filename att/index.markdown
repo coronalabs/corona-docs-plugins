@@ -50,7 +50,7 @@ settings =
 
 #### [att.request(listener)][plugin.att.request]
 
-#### [att.status)][plugin.att.status]
+#### [att.status][plugin.att.status]
 
 ## Example
 
