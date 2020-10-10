@@ -37,4 +37,12 @@ settings =
 
 ## Support
 
-* [Corona Forums](http://forums.coronalabs.com/forum/631-corona-premium-plugins/)
+* [Forums](https://forums.solar2d.com/c/corona-marketplace/corona-premium-plugins/92)
+
+## Sample project
+
+* [View on GitHub](https://github.com/coronalabs/plugins-source-native-popup-quicklook/tree/master/Corona)
+
+## Source code
+
+* [View on GitHub](https://github.com/coronalabs/plugins-source-native-popup-quicklook)
