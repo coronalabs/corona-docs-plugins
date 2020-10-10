@@ -1,7 +1,7 @@
 # pasteboard.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          pasteboard, clipboard, copy, paste
 > __Platforms__			Android, iOS
@@ -57,4 +57,8 @@ settings =
 
 ## Support
 
-* [Corona Forums](http://forums.coronalabs.com/forum/631-corona-premium-plugins/)
+* [Forums](https://forums.solar2d.com/c/corona-marketplace/corona-premium-plugins/92)
+
+## Source code
+
+* [View on GitHub](https://github.com/coronalabs/plugins-source-pasteboard)
