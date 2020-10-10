@@ -59,6 +59,10 @@ settings =
 
 * [Forums](https://forums.solar2d.com/c/corona-marketplace/corona-premium-plugins/92)
 
+## Sample project
+
+* [View on GitHub](https://github.com/coronalabs/plugins-source-pasteboard/tree/master/Corona)
+
 ## Source code
 
 * [View on GitHub](https://github.com/coronalabs/plugins-source-pasteboard)
