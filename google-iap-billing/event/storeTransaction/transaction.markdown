@@ -14,13 +14,16 @@
 This table contains the following <nobr>read-only</nobr> properties pertaining to the transaction:
 
 * `state` &mdash; A [string][api.type.String] indicating the state of the transaction.
-  * `"purchased"` &mdash; this will be in the case of a normal or restored purchase
-  * `"pending"` &mdash; for pending purchases, when Play Store is awaiting for user to make a payment in physical store. Once purchase is made, another event would be generated with the `"purchased"` state.
-  * `"cancelled"` &mdash; for a purchase cancelled by user. Note, this event would not contain specifics about which purchase was cancelled
-  * `"consumed"` &mdash; for a consumed purchase
-  * `"finished"` &mdash; when purchase was acknowledged successfully
-  * `"failed"` &mdash; in case of an error. Note, this event probably would not contain specifics about which purchase failed, only the error message and the code
-  * `"unknown"` &mdash; this should not happen
+
+> --------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+> `"purchased"`         this will be in the case of a normal or restored purchase
+> `"pending"`           for pending purchases, when Play Store is awaiting for user to make a payment in physical store. Once purchase is made, another event would be generated with the `"purchased"` state.
+> `"cancelled"`         for a purchase cancelled by user. Note, this event would not contain specifics about which purchase was cancelled
+> `"consumed"`          for a consumed purchase
+> `"finished"`          when purchase was acknowledged successfully
+> `"failed"`            in case of an error. Note, this event probably would not contain specifics about which purchase failed, only the error message and the code
+> `"unknown"`           this should not happen
+> --------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * `receipt` &mdash; A <nobr>JSON-formatted</nobr> [string][api.type.String] representation of the transaction receipt. This is the `INAPP_PURCHASE_DATA` returned by Google.
 

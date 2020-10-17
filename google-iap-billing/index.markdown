@@ -10,7 +10,7 @@
 
 ## Overview
 
-The [Google IAP](https://marketplace.coronalabs.com/plugin/google-iap) plugin allows you to support <nobr>in-app</nobr> purchasing on Android, including <nobr>in-game</nobr> currency, upgrades, and more.
+The Google Play Billing plugin allows you to support <nobr>in-app</nobr> purchasing on Android, including <nobr>in-game</nobr> currency, upgrades, and more.
 
 For in-app purchasing on other platforms, see the documentation for [Apple IAP][api.library.store] or [Amazon IAP][plugin.amazon-iap-v2].
 
