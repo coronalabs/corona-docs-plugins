@@ -14,7 +14,6 @@
 This table contains the following <nobr>read-only</nobr> properties pertaining to the transaction:
 
 * `state` &mdash; A [string][api.type.String] indicating the state of the transaction.
-
   * `"purchased"` &mdash; this will be in the case of a normal or restored purchase
   * `"pending"` &mdash; for pending purchases, when Play Store is awaiting for user to make a payment in physical store. Once purchase is made, another event would be generated with the `"purchased"` state.
   * `"cancelled"` &mdash; for a purchase cancelled by user. Note, this event would not contain specifics about which purchase was cancelled
