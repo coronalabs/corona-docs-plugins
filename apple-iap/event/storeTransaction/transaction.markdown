@@ -13,7 +13,7 @@
 
 This table contains the following <nobr>read-only</nobr> properties pertaining to the transaction:
 
-* `state` &mdash; A [string][api.type.String] indicating the state of the transaction. This will be `"purchased"` in the case of a normal purchase, `"restored"` for a restored purchase, `"cancelled"` for a cancelled purchase, or `"failed"` in case of an error.
+* `state` &mdash; A [string][api.type.String] indicating the state of the transaction. This will be `"purchased"` in the case of a normal purchase, `"restored"` for a restored purchase, `"restoreCompleted"` once all restored purchase(s) call is done, `"cancelled"` for a cancelled purchase, or `"failed"` in case of an error.
 
 * `receipt` &mdash; A <nobr>JSON-formatted</nobr> [string][api.type.String] representation of the transaction receipt.
 
