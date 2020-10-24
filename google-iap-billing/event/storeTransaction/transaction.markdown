@@ -22,6 +22,7 @@ This table contains the following <nobr>read-only</nobr> properties pertaining t
 > `"consumed"`          for a consumed purchase
 > `"finished"`          when purchase was acknowledged successfully
 > `"failed"`            in case of an error. Note, this event probably would not contain specifics about which purchase failed, only the error message and the code
+> `"restoreCompleted"`  once all purchase(s) are restored, after the [restore()][plugin.google-iap-billing.restore] call
 > `"unknown"`           this should not happen
 > --------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

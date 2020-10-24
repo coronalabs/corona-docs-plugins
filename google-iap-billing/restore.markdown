@@ -15,7 +15,8 @@
 
 Users who wipe the information on a device or buy a new device may wish to restore previously purchased items. This function initiates the process of retrieving all valid purchases and active subscriptions.
 
-During this process, the [storeTransaction][plugin.google-iap-billing.event.storeTransaction] listener defined in [store.init()][plugin.google-iap-billing.init] may be called multiple times, once for each item.
+During this process, the [storeTransaction][plugin.google-iap-billing.event.storeTransaction] listener defined in [store.init()][plugin.google-iap-billing.init] may be called multiple times, once for each item. Once completed, a transaction state "restoreCompleted" is called.
+
 
 
 ## Gotchas
