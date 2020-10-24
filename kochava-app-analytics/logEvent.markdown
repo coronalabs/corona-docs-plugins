@@ -86,9 +86,9 @@ _[Table][api.type.Table]._ Table containing key-value parameters. Valid keys and
 
 Kochava supports the logging and verification of app store receipts, but only when `eventType` is `"purchase"`. In this case, the following parameters can be added to the `params` table for this purpose:
 
-* `"receiptData"` ([string][api.type.String]) &mdash; This parameter expects the data from `event.transaction.receipt` found in the <nobr>in-app</nobr> purchase transaction callback. Supported markets include [Apple IAP][api.library.store] and [Google IAP][plugin.google-iap-v3].
+* `"receiptData"` ([string][api.type.String]) &mdash; This parameter expects the data from `event.transaction.receipt` found in the <nobr>in-app</nobr> purchase transaction callback. Supported markets include [Apple IAP][api.library.store] and [Google IAP][plugin.google-iap-billing].
 
-* `"receiptDataSignature"` ([string][api.type.String]) &mdash; This parameter is mandatory when logging a [Google IAP][plugin.google-iap-v3] receipt. It expects the data from `event.transaction.signature` found in the <nobr>in-app</nobr> purchase transaction callback.
+* `"receiptDataSignature"` ([string][api.type.String]) &mdash; This parameter is mandatory when logging a [Google IAP][plugin.google-iap-billing] receipt. It expects the data from `event.transaction.signature` found in the <nobr>in-app</nobr> purchase transaction callback.
 
 </div>
 

@@ -48,10 +48,10 @@ _[Number][api.type.Number]._ The unit price of the IAP item.
 The `purchaseReceipt` table includes parameters for logging IAP receipts.
 
 ##### receipt ~^(required)^~
-_[String][api.type.String]._ This parameter is an <nobr>in-app</nobr> purchase receipt. It expects the data from `event.transaction.receipt` found in the <nobr>in-app</nobr> purchase transaction callback. Supported markets include [Apple IAP][api.library.store] and [Google IAP][plugin.google-iap-v3].
+_[String][api.type.String]._ This parameter is an <nobr>in-app</nobr> purchase receipt. It expects the data from `event.transaction.receipt` found in the <nobr>in-app</nobr> purchase transaction callback. Supported markets include [Apple IAP][api.library.store] and [Google IAP][plugin.google-iap-billing].
 
 ##### signature ~^(required)^~
-_[String][api.type.String]._ This parameter applies to Google&nbsp;Play transactions only and is mandatory when logging a [Google IAP][plugin.google-iap-v3] receipt. It expects the data from `event.transaction.signature` found in the <nobr>in-app</nobr> purchase transaction callback.
+_[String][api.type.String]._ This parameter applies to Google&nbsp;Play transactions only and is mandatory when logging a [Google IAP][plugin.google-iap-billing] receipt. It expects the data from `event.transaction.signature` found in the <nobr>in-app</nobr> purchase transaction callback.
 
 ##### transactionId ~^(required)^~
 _[String][api.type.String]._ This parameter applies to <nobr>Apple App Store</nobr> transactions only and is mandatory when logging an [Apple IAP][api.library.store] receipt. It expects the data from `event.transaction.identifier` found in the <nobr>in-app</nobr> purchase transaction callback.

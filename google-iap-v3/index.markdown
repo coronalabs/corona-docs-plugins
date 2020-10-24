@@ -8,6 +8,13 @@
 > __Platforms__			Android
 > --------------------- ------------------------------------------------------------------------------------------
 
+<div class="guide-notebox-imp">
+<div class="notebox-title-imp">Important</div>
+
+This plugin is deprecated. Please migrate to [Google Billing][plugin.google-iap-billing]. For more information and key differences see its [documentation][plugin.google-iap-billing].
+
+</div>
+
 ## Overview
 
 The Google IAP plugin allows you to support <nobr>in-app</nobr> purchasing on Android, including <nobr>in-game</nobr> currency, upgrades, and more.

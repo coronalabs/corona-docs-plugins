@@ -213,7 +213,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 * [Amazon IAP][plugin.amazon-iap-v2]
 * [Apple IAP][plugin.apple-iap]
-* [Google IAP][plugin.google-iap-v3]
+* [Google IAP][plugin.google-iap-billing]
 
 <div class="clear"></div>
 </div>
@@ -348,7 +348,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 #### [Amazon IAP][plugin.amazon-iap-v2]
 #### [Apple IAP][plugin.apple-iap]
-#### [Google IAP][plugin.google-iap-v3]
+#### [Google IAP][plugin.google-iap-billing]
 
 ## Security
 
