@@ -55,9 +55,27 @@ _[String][api.type.String]._ A unique user ID to be given to the current user.
 ##### debugLogging ~^(optional)^~
 _[Boolean][api.type.Boolean]._ If `true`, turns on debug logging which displays extra debugging information in the device log. Default is `false`.
 
+##### privacyFrameworks ~^(required)^~
+_[Table][api.type.Table]._ A table of key-value pairs containing used privacy regulations as keys and boolean values (`true` if used) as values. Set only those which are valid for current user. Choices are as follows:
+
+``````lua
+privacyFrameworks = { gdpr=true, coppa=true, ccpa=true },
+``````
+
+##### privacyConsents ~^(required)^~
+_[Table][api.type.Table]._ A table of key-value pairs containing consent values for privacy frameworks. Set only those which are valid for current user.
+
+``````lua
+privacyConsents = { gdpr=true, coppa=true, ccpa=true },
+``````
+
+
+### Deprecated
+
+<s>
 ##### hasUserConsent ~^(optional)^~
 _[Boolean][api.type.Boolean]._ If set to `false`, AdColony will enable GDPR data collection restrictions, set to `true` for opposite.
-
+</s>
 
 ## Example
 
