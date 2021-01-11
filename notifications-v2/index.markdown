@@ -20,6 +20,16 @@ For Android, all __new__ apps, or existing apps being updated with push notifica
 </div>
 
 
+<div class="guide-notebox-imp">
+<div class="notebox-title-imp">Important</div>
+
+To use Firebase notifications on iOS make sure to include `plugin.notifications.v2.firebase` plugin in your `build.settings`. This plugin is identical to the `plugin.notifications.v2` and also includes libraries required to operate  notification through Firebase on iOS.
+
+</div>
+
+
+
+
 ## Syntax
 
 	local notifications = require( "plugin.notifications.v2" )
@@ -50,6 +60,21 @@ settings =
 	plugins =
 	{
 		["plugin.notifications.v2"] =
+		{
+			publisherId = "com.coronalabs"
+		},
+	},
+}
+``````
+
+Or use `plugin.notifications.v2.firebase` if you plan to use Firebase on iOS.
+
+``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8]" }
+settings =
+{
+	plugins =
+	{
+		["plugin.notifications.v2.firebase"] =
 		{
 			publisherId = "com.coronalabs"
 		},
