@@ -157,6 +157,14 @@ settings =
 	android =
 	{
 		facebookAppId = "XXXXXXXXXX",  -- Replace XXXXXXXXXX with your Facebook App ID
+		applicationChildElements =
+        {
+            -- Array of strings
+            [[
+                <provider android:authorities="com.facebook.app.FacebookContentProviderXXXXXXXXXX"
+                          android:name="com.facebook.FacebookContentProvider" android:exported="true"/>
+            ]],
+        }, -- Replace XXXXXXXXXX with your Facebook App ID
 	},
 }
 ``````

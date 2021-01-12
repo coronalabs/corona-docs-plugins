@@ -67,6 +67,15 @@ To use this plugin, add an entry into the `plugins` table of `build.settings`. W
 ``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8]" }
 settings =
 {
+	iphone =
+	{
+		plist = {
+			SKAdNetworkItems = {
+				{ SKAdNetworkIdentifier = "v9wttpbfk9.skadnetwork" },
+				{ SKAdNetworkIdentifier = "n38lu8286q.skadnetwork" },
+			},
+		},
+	},
 	plugins =
 	{
 		["plugin.fbAudienceNetwork"] =
