@@ -28,3 +28,30 @@ Lua array ([table][api.type.Table]) where each element is itself a Lua table con
 * `priceCurrencyCode` &mdash; ISO 4217 currency code for the price, for example `"GBP"` if the price is specified in British pounds sterling.
 
 * `originalJson` &mdash; A JSON-formatted [string][api.type.String] representation of the product details.
+
+## JSON entries
+
+Field `originalJson` contains json encoded values. Here is the table for all of its fields and how they correspond to products array entries.
+
+| Products entry field | Original JSON field           | Notes                 |
+|----------------------|-------------------------------|-----------------------|
+| title                | title                         |                       |
+| description          | description                   |                       |
+| localizedPrice       | price                         |                       |
+| productIdentifier    | productId                     |                       |
+| type                 | type                          |                       |
+| priceAmountMicros    | price_amount_micros           | JSON field is integer |
+| priceCurrencyCode    | price_currency_code           |                       |
+| originalJson         |                               | JSON String           |
+|                      | freeTrialPeriod               |                       |
+|                      | iconUrl                       |                       |
+|                      | introductoryPrice             |                       |
+|                      | introductoryPriceAmountMicros | Integer               |
+|                      | introductoryPriceCycles       | Integer               |
+|                      | introductoryPricePeriod       |                       |
+|                      | original_price                | Optional              |
+|                      | original_price_micros         | Integer, optional     |
+|                      | packageName                   |                       |
+|                      | skuDetailsToken               |                       |
+|                      | subscriptionPeriod            |                       |
+
