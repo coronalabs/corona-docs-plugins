@@ -33,25 +33,28 @@ Lua array ([table][api.type.Table]) where each element is itself a Lua table con
 
 Field `originalJson` contains json encoded values. Here is the table for all of its fields and how they correspond to products array entries.
 
-| Products entry field | Original JSON field           | Notes                 |
-|----------------------|-------------------------------|-----------------------|
-| title                | title                         |                       |
-| description          | description                   |                       |
-| localizedPrice       | price                         |                       |
-| productIdentifier    | productId                     |                       |
-| type                 | type                          |                       |
-| priceAmountMicros    | price_amount_micros           | JSON field is integer |
-| priceCurrencyCode    | price_currency_code           |                       |
-| originalJson         |                               | JSON String           |
-|                      | freeTrialPeriod               |                       |
-|                      | iconUrl                       |                       |
-|                      | introductoryPrice             |                       |
-|                      | introductoryPriceAmountMicros | Integer               |
-|                      | introductoryPriceCycles       | Integer               |
-|                      | introductoryPricePeriod       |                       |
-|                      | original_price                | Optional              |
-|                      | original_price_micros         | Integer, optional     |
-|                      | packageName                   |                       |
-|                      | skuDetailsToken               |                       |
-|                      | subscriptionPeriod            |                       |
+<div class="inner-table">
 
+| Products entry field   | Original JSON field             | Notes                        |
+|------------------------|---------------------------------|------------------------------|
+| `title`                | `title`                         |                              |
+| `description`          | `description`                   |                              |
+| `localizedPrice`       | `price`                         |                              |
+| `productIdentifier`    | `productId`                     |                              |
+| `type`                 | `type`                          |                              |
+| `priceAmountMicros`    | `price_amount_micros`           | JSON field is integer        |
+| `priceCurrencyCode`    | `price_currency_code`           |                              |
+| `originalJson`         |                                 | JSON doesn't contain itself  |
+|                        | `freeTrialPeriod`               |                              |
+|                        | `iconUrl`                       |                              |
+|                        | `introductoryPrice`             |                              |
+|                        | `introductoryPriceAmountMicros` | Integer                      |
+|                        | `introductoryPriceCycles`       | Integer                      |
+|                        | `introductoryPricePeriod`       |                              |
+|                        | `original_price`                | Optional                     |
+|                        | `original_price_micros`         | Integer, optional            |
+|                        | `packageName`                   |                              |
+|                        | `skuDetailsToken`               |                              |
+|                        | `subscriptionPeriod`            |                              |
+
+</div>
