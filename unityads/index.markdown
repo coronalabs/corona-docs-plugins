@@ -57,6 +57,21 @@ To use this plugin, add an entry into the `plugins` table of `build.settings`. W
 ``````lua
 settings =
 {
+	iphone =
+	{
+		plist =
+		{
+			NSUserTrackingUsageDescription = "Your data will be used to provide you a better and personalized ad experience.",
+			SKAdNetworkItems = {
+				{ SKAdNetworkIdentifier = "4dzt52r2t5.skadnetwork" },
+				{ SKAdNetworkIdentifier = "bvpn9ufa9b.skadnetwork" },
+			},
+		},
+	},
+	android =
+	{
+		minSdkVersion = "19",
+	},
 	plugins =
 	{
 		["plugin.unityads"] =
@@ -81,6 +96,8 @@ For Android, the following permissions/features are automatically added when usi
 
 * `"android.permission.INTERNET"`
 * `"android.permission.ACCESS_NETWORK_STATE"`
+
+Also, minimum Android API level required is 19
 
 </div>
 
