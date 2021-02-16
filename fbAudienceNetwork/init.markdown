@@ -64,6 +64,9 @@ _[Array][api.type.Array]._ Optional __except__ when testing on devices. An array
 
 </div>
 
+##### advertiserTrackingEnabled ~^(optional)^~
+_[Boolean][api.type.Boolean]._ Optional. If set, [`setAdvertiserTrackingEnabled`](https://developers.facebook.com/docs/audience-network/guides/advertising-tracking-enabled) would be invoked with the value.
+
 
 ## Example
 
