@@ -37,6 +37,8 @@ _[String][api.type.String]._ Your Tenjin API&nbsp;Key, gathered from the [Tenjin
 ##### hasUserConsent ~^(optional)^~
 _[Boolean][api.type.Boolean]._ If set to `false`, Tenjin will enable GDPR data collection restrictions, set to `true` for opposite. Default is `false`.
 
+##### registerAppForAdNetworkAttribution ~^(optional)^~
+_[Boolean][api.type.Boolean]._ If set to `true`, Tenjin SDK `registerAppForAdNetworkAttribution` will be called.
 
 ## Example
 

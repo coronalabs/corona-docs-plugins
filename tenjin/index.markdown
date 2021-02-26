@@ -40,6 +40,7 @@ Before using this plugin, you'll need to [register](https://www.tenjin.io/sign_u
 
 #### [tenjin.getDeepLink()][plugin.tenjin.getDeepLink]
 
+#### [tenjin.updateConversionValue()][plugin.tenjin.updateConversionValue]
 
 ## Events
 
