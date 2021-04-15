@@ -5,7 +5,7 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          google, google play games services, achievements, leaderboards, multiplayer
 > __Platforms__         Android
-> __Sample__            [https://github.com/coronalabs/gpgs-sample](https://github.com/coronalabs/gpgs-sample)
+> __Sample__            [https://github.com/coronalabs/com.coronalabs-plugin.gpgs.v2](https://github.com/coronalabs/com.coronalabs-plugin.gpgs.v2/tree/master/src/Corona)
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Beta version
