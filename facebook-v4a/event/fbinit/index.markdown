@@ -2,7 +2,7 @@
 # fbinit
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Facebook, fbinit
 > __See also__          [facebook.init()][plugin.facebook-v4a.init]

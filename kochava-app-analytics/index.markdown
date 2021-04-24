@@ -1,7 +1,7 @@
 # kochavaFAA.* &mdash; Free&nbsp;App&nbsp;Analytics
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          analytics, attribution, Kochava Free App Analytics
 > __Platforms__			Android, iOS

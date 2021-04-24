@@ -1,7 +1,7 @@
 # object.playedTime
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Integer][api.type.Integer]
+> __Type__              [Integer][api.type.Number]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
 > __See also__          [gpgs2.snapshots.*][plugin.gpgs2.snapshots]
@@ -10,4 +10,4 @@
 
 ## Overview
 
-_[Integer][api.type.Integer]._ The played time of this snapshot in milliseconds. Can be `nil`.
+_[Integer][api.type.Number]._ The played time of this snapshot in milliseconds. Can be `nil`.

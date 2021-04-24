@@ -2,7 +2,7 @@
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Function][api.type.Function]
-> __Return value__		[String][api.Type.String]
+> __Return value__		[String][api.type.String]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          advertising, ID
 > __See also__          [advertisingId.isTrackingEnabled()][plugin.advertisingId.isTrackingEnabled]

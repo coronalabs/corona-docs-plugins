@@ -3,7 +3,7 @@
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [function][api.type.Function]  
 > __Library__           [gamecircle.*][plugin.gamecircle]  
-> __Return value__      [number][api.type.number]  
+> __Return value__      [number][api.type.Number]  
 > __Revision__          [REVISION_LABEL](REVISION_URL)  
 > __Keywords__          Accumulating, Number, Get, Whispersync
 > --------------------- ------------------------------------------------------------------------------------------

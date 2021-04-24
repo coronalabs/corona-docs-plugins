@@ -219,7 +219,7 @@ The following data is available in the `event` table of the listener function wh
 * `phoneWork` ([string][api.type.String])
 * `phoneOther1` ([string][api.type.String]) &mdash; this key is incremented for each "other" entry, for example `phoneOther2`
 
-* `picture` ([table][api.type.Table]) &mdash; contains keys `filename` ([string][api.type.String]) and `baseDir` ([userdata][api.Type.Userdata])
+* `picture` ([table][api.type.Table]) &mdash; contains keys `filename` ([string][api.type.String]) and `baseDir` ([userdata][api.type.Userdata])
 
 * `faxHome` ([string][api.type.String])
 * `faxWork` ([string][api.type.String])

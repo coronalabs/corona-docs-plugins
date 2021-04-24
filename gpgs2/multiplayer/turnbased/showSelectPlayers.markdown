@@ -32,10 +32,10 @@ _[String][api.type.String]._ Preselect this player.
 _[Array][api.type.Array]._ Populate with [string][api.type.String] elements. Preselect these players. Higher priority than `playerId`.
 
 ##### minPlayers ~^(optional)^~
-_[Integer][api.type.Integer]._ The minimum number of players to select (not including the current player).
+_[Integer][api.type.Number]._ The minimum number of players to select (not including the current player).
 
 ##### maxPlayers ~^(optional)^~
-_[Integer][api.type.Integer]._ The maximum number of players to select (not including the current player).
+_[Integer][api.type.Number]._ The maximum number of players to select (not including the current player).
 
 ##### allowAutomatch ~^(optional)^~
 _[Boolean][api.type.Boolean]._ Whether or not to display an option for selecting automatch players.

@@ -1,7 +1,7 @@
 # Notifications (local and Firebase)
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__				[Library][api.type.library]
+> __Type__				[Library][api.type.Library]
 > __Revision__			[REVISION_LABEL](REVISION_URL)
 > __Keywords__			notification, notifications
 > __Platforms__			Android, iOS

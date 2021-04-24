@@ -2,7 +2,7 @@
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Function][api.type.Function]
-> __Return value__		[Boolean][api.Type.Boolean]
+> __Return value__		[Boolean][api.type.Boolean]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          advertising, ID, enabled, tracking
 > __See also__          [advertisingId.getAdvertisingId()][plugin.advertisingId.getAdvertisingId]

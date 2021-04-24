@@ -1,7 +1,7 @@
 # achievementInfoUpdate
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          steam, steamworks, achievements, achievementInfoUpdate
 > __See also__          [steamworks.addEventListener()][plugin.steamworks.addEventListener]

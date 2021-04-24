@@ -29,10 +29,10 @@ _[String][api.type.String]._ Snapshot to save.
 _[String][api.type.String]._ The description of this snapshot to be displayed to the player.
 
 ##### playedTime ~^(optional)^~
-_[Integer][api.type.Integer]._ The number of milliseconds played by the player.
+_[Integer][api.type.Number]._ The number of milliseconds played by the player.
 
 ##### progress ~^(optional)^~
-_[Integer][api.type.Integer]._ The progress value.
+_[Integer][api.type.Number]._ The progress value.
 
 ##### image ~^(optional)^~
 _[Table][api.type.Table]._ [Image][plugin.gpgs-v2.type.Image] object. File to upload and use as a snapshot cover image.

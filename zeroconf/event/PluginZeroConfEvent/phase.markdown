@@ -2,7 +2,7 @@
 # event.phase
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [String][api.type.string]
+> __Type__              [String][api.type.String]
 > __Event__				[PluginZeroConfEvent][plugin.zeroconf.event.PluginZeroConfEvent]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          ZeroConf, network, PluginZeroConfEvent, phase

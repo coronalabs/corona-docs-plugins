@@ -44,4 +44,4 @@ _[String][api.type.String]._ Participant to send the result to.
 _[String][api.type.String]._ The result of the match. One of , `"disagreed"`, `"disconnect"`, `"loss"`, `"tie"`, `"win"`, `"none"`. Default is `"none"`.
 
 ##### placing ~^(optional)^~
-_[Integer][api.type.Integer]._ The place the participant has earned.
+_[Integer][api.type.Number]._ The place the participant has earned.

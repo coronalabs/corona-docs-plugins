@@ -38,13 +38,13 @@ _[Listener][api.type.Listener]._ Receives [create][plugin.gpgs-v2.multiplayer.tu
 ## automatch Table Parameters
 
 ##### minPlayers ~^(optional)^~
-_[Integer][api.type.Integer]._ Minimum number of auto-matched players.
+_[Integer][api.type.Number]._ Minimum number of auto-matched players.
 
 ##### maxPlayers ~^(optional)^~
-_[Integer][api.type.Integer]._ Maximum number of auto-matched players.
+_[Integer][api.type.Number]._ Maximum number of auto-matched players.
 
 ##### exclusionBits ~^(optional)^~
-_[Integer][api.type.Integer]._ Exclusive bitmasks for the automatching request. The logical AND of each pairing of automatching requests must equal zero for auto-match.
+_[Integer][api.type.Number]._ Exclusive bitmasks for the automatching request. The logical AND of each pairing of automatching requests must equal zero for auto-match.
 
 ##### variant ~^(optional)^~
-_[Integer][api.type.Integer]._ This is an optional, developer-controlled parameter describing the type of game to play, and is used for auto-matching criteria. Must be a positive integer.
+_[Integer][api.type.Number]._ This is an optional, developer-controlled parameter describing the type of game to play, and is used for auto-matching criteria. Must be a positive integer.

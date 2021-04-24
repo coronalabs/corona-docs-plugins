@@ -26,4 +26,4 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Event to increment.
 
 ##### steps ~^(optional)^~
-_[Integer][api.type.Integer]._ Incremental value. Default is 1.
+_[Integer][api.type.Number]._ Incremental value. Default is 1.

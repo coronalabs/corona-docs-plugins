@@ -1,7 +1,7 @@
 # gpgs.* &mdash; Google Play Games Services
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
 > __Platforms__         Android

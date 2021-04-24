@@ -26,7 +26,7 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Achievement to update.
 
 ##### steps ~^(required)^~
-_[Integer][api.type.Integer]._ Amount of steps for the achievement.
+_[Integer][api.type.Number]._ Amount of steps for the achievement.
 
 ##### listener ~^(optional)^~
 _[Listener][api.type.Listener]._ Receives [setSteps][plugin.gpgs2.achievements.event.setSteps] event.

@@ -32,7 +32,7 @@ _[Boolean][api.type.Boolean]._ If `true`, the Add button will not be shown.
 _[Boolean][api.type.Boolean]._ If `true`, the Delete button will not be shown.
 
 ##### limit ~^(optional)^~
-_[Integer][api.type.Integer]._ The maximum number of snapshots to display.
+_[Integer][api.type.Number]._ The maximum number of snapshots to display.
 
 ##### listener ~^(optional)^~
 _[Listener][api.type.Listener]._ Receives [show][plugin.gpgs2.snapshots.event.show] event.

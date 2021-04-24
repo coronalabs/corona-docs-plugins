@@ -1,7 +1,7 @@
 # steamworks.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          steam, steamworks, achievements, leaderboard
 > __Platforms__         macOS, Windows

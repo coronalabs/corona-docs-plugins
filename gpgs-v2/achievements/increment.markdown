@@ -26,7 +26,7 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Achievement to increment.
 
 ##### steps ~^(optional)^~
-_[Integer][api.type.Integer]._ Incremental value. Default is 1.
+_[Integer][api.type.Number]._ Incremental value. Default is 1.
 
 ##### listener ~^(optional)^~
 _[Listener][api.type.Listener]._ Receives [increment][plugin.gpgs-v2.achievements.event.increment] event.

@@ -32,7 +32,7 @@ _[String][api.type.String]._ Can be one of these: `"single"` - current player sc
 _[Boolean][api.type.Boolean]._ If true - load only scores for the current player's friends.
 
 ##### limit ~^(optional)^~
-_[Integer][api.type.Integer]._ How many scores to load, max and default is 25.
+_[Integer][api.type.Number]._ How many scores to load, max and default is 25.
 
 ##### timeSpan ~^(optional)^~
 _[String][api.type.String]._ Can be one of these: `"all time"`, `"weekly"` - scores are reset each week, `"daily"` - scores are reset daily. Default is `"all time"`.

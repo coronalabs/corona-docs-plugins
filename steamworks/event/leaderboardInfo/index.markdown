@@ -1,7 +1,7 @@
 # leaderboardInfo
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          steam, steamworks, leaderboard, leaderboardInfo
 > __See also__          [steamworks.requestLeaderboardInfo()][plugin.steamworks.requestLeaderboardInfo]

@@ -1,7 +1,7 @@
 # adsRequest
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          ads, advertising, AdMob, adsRequest
 > __See also__			[admob.init()][plugin.admob.init]

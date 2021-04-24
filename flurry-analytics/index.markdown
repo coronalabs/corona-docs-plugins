@@ -1,7 +1,7 @@
 # flurryAnalytics.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          analytics, Flurry Analytics
 > __Platforms__			Android, iOS

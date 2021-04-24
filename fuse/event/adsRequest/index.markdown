@@ -2,7 +2,7 @@
 # adsRequest
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Dispatch chain__    &#9656; [Runtime][api.type.Runtime]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          ads, advertising, monetization, fuse, adsRequest

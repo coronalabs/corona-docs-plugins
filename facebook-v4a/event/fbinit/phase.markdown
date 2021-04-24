@@ -2,7 +2,7 @@
 # event.phase
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [String][api.type.string]
+> __Type__              [String][api.type.String]
 > __Event__             [fbinit][plugin.facebook-v4a.event.fbinit]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Facebook, fbinit, phase

@@ -1,7 +1,7 @@
 # facebook.* (legacy)
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Library__           [facebook.*][api.library.facebook]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          facebook

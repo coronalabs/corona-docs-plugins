@@ -23,4 +23,4 @@ Returns Boolean - `true` on success.
 _[String][api.type.String]._ The data bytes to modify the snapshot content with.
 
 ##### offset ~^(optional)^~
-_[Integer][api.type.Integer]._ The position in content to start writing from.
+_[Integer][api.type.Number]._ The position in content to start writing from.

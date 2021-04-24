@@ -2,7 +2,7 @@
 # PluginZeroConfEvent
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          ZeroConf, network, PluginZeroConfEvent
 > __See also__			[zeroconf.init()][plugin.zeroconf.init]

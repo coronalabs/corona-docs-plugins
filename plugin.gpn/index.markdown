@@ -1,7 +1,7 @@
 # gpn.*
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [library][api.type.library]
+> __Type__              [library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          gpn
 > __Sample code__       

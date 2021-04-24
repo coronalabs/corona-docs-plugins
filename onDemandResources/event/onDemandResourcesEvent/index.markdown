@@ -2,7 +2,7 @@
 # onDemandResourcesEvent
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          on-demand resources, onDemandResources, onDemandResourcesEvent
 > __See also__          [onDemandResources.request()][plugin.onDemandResources.request]

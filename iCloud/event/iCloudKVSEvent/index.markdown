@@ -1,7 +1,7 @@
 # iCloudKVSEvent
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          iCloud, sync, storage, Key-Value Storage, KVS, iCloudKVSEvent
 > __See also__          [iCloud.setKVSListener()][plugin.iCloud.setKVSListener]

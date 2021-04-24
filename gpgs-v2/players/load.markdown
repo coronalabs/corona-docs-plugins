@@ -32,7 +32,7 @@ _[Array][api.type.Array]._ Populate with [string][api.type.String] elements. If 
 _[String][api.type.String]._ One of these:  `"connected"`, `"invitable"` or `"recentlyPlayedWith"`. If provided loads information on players from the specified source. Higher priority than `playerIds`.
 
 ##### limit ~^(optional)^~
-_[Integer][api.type.Integer]._ Limit results count to this value. All results internally are fetched in pages of 25 items each.
+_[Integer][api.type.Number]._ Limit results count to this value. All results internally are fetched in pages of 25 items each.
 
 ##### reload ~^(optional)^~
 _[Boolean][api.type.Boolean]._ If `true`, the data will be pulled fresh, not from a cache.

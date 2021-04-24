@@ -1,7 +1,7 @@
 # activePlayerCount
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Event][api.type.event]
+> __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          steam, steamworks, activePlayerCount
 > __See also__          [steamworks.requestActivePlayerCount()][plugin.steamworks.requestActivePlayerCount]
