@@ -5,7 +5,7 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          google, google play games services, achievements, leaderboards, multiplayer
 > __Platforms__         Android
-> __Sample__            [https://github.com/coronalabs/gpgs-sample](https://github.com/coronalabs/gpgs-sample)
+> __Sample__            [https://github.com/coronalabs/com.coronalabs-plugin.gpgs.v2](https://github.com/coronalabs/com.coronalabs-plugin.gpgs.v2/tree/master/src/Corona)
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Beta version
@@ -37,6 +37,18 @@ To use this plugin, add an entry into the `plugins` table of `build.settings`. W
 			}
 		}
 	}
+
+Additionally, you must specify the <nobr>Google Play Games App ID</nobr> in the `android` table of `build.settings` as the `googlePlayGamesAppId` key:
+
+``````{ brush="lua" gutter="false" first-line="1" highlight="[5]" }
+settings = {
+
+	android =
+	{
+		googlePlayGamesAppId = "YOUR_APPLICATION_ID",
+	},
+}
+``````
 
 ## Nodes
 
