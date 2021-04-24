@@ -38,6 +38,18 @@ To use this plugin, add an entry into the `plugins` table of `build.settings`. W
 		}
 	}
 
+Additionally, you must specify the <nobr>Google Play Games App ID</nobr> in the `android` table of `build.settings` as the `googlePlayGamesAppId` key:
+
+``````{ brush="lua" gutter="false" first-line="1" highlight="[5]" }
+settings = {
+
+	android =
+	{
+		googlePlayGamesAppId = "YOUR_APPLICATION_ID",
+	},
+}
+``````
+
 ## Nodes
 
 The plugin is divided into API nodes for better organization.
