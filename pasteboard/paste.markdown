@@ -1,7 +1,7 @@
 # pasteboard.paste()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          paste, pasteboard
 > __See also__          [Pasteboard][plugin.pasteboard]

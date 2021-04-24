@@ -1,7 +1,7 @@
 # gpn.presentInterstitial()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Library__           [gpn.*][plugin.gpn]
 > __Return value__      [String][api.type.String]
 > __Revision__          [REVISION_LABEL](REVISION_URL)

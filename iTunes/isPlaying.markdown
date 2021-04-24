@@ -1,7 +1,7 @@
 # iTunes.isPlaying()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          isPlaying, iTunes
 > __See also__          [iTunes][plugin.iTunes]

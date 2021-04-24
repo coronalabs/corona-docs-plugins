@@ -1,7 +1,7 @@
 # gamecircle.Whispersync.GetLatestStringList
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]  
+> __Type__              [function][api.type.Function]  
 > __Library__           [gamecircle.*][plugin.gamecircle]  
 > __Return value__      [SyncableString][plugin.gamecircle.Whispersync.SyncableString]  
 > __Revision__          [REVISION_LABEL](REVISION_URL)  

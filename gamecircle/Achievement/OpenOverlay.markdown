@@ -1,7 +1,7 @@
 # gamecircle.Achievement.OpenOverlay()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Function][api.type.function]  
+> __Type__              [Function][api.type.Function]  
 > __Library__           [gamecircle.*][plugin.gamecircle]  
 > __Return value__      None  
 > __Revision__          [REVISION_LABEL](REVISION_URL)  

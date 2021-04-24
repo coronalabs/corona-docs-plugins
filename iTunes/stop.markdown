@@ -1,7 +1,7 @@
 # iTunes.stop()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          stop, iTunes

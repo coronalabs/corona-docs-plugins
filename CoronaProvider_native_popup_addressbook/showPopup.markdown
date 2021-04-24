@@ -1,7 +1,7 @@
 # native.showPopup() &mdash; Address Book
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Library__           [native.*][plugin.CoronaProvider_native_popup_addressbook]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          native, showPopup, address, contacts

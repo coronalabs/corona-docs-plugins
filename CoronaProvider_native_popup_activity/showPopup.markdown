@@ -1,7 +1,7 @@
 # native.showPopup() — Activity Popup
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Library__           [native.*][api.library.native]
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)

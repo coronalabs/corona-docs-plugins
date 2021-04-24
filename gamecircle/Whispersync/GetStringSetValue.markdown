@@ -1,7 +1,7 @@
 # gamecircle.Whispersync.GetStringSetValue
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]  
+> __Type__              [function][api.type.Function]  
 > __Library__           [gamecircle.*][plugin.gamecircle]  
 > __Return value__      [SyncableStringElement][plugin.gamecircle.Whispersync.SyncableStringElement]  
 > __Revision__          [REVISION_LABEL](REVISION_URL)  

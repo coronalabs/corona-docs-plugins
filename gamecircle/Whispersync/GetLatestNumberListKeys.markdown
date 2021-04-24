@@ -1,7 +1,7 @@
 # gamecircle.Whispersync.GetLatestNumberListKeys
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]  
+> __Type__              [function][api.type.Function]  
 > __Library__           [gamecircle.*][plugin.gamecircle]  
 > __Return value__      [KeyTable][plugin.gamecircle.Whispersync.KeyTable]  
 > __Revision__          [REVISION_LABEL](REVISION_URL)  

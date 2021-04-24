@@ -1,7 +1,7 @@
 # openudid.getValue()
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Function][api.type.function]
+> __Type__              [Function][api.type.Function]
 > __Library__           [openudid.*][plugin.openudid]
 > __Return value__      [String][api.type.String]
 > __Revision__          [REVISION_LABEL](REVISION_URL)

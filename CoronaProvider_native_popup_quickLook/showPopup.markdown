@@ -1,7 +1,7 @@
 # native.showPopup() &mdash; Quick Look
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [function][api.type.function]
+> __Type__              [function][api.type.Function]
 > __Library__           [native.*][plugin.CoronaProvider_native_popup_quickLook]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          native, showPopup, quick look, preview
