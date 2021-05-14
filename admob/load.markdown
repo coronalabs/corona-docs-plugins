@@ -69,6 +69,9 @@ _[Array][api.type.Array]._ An array of strings to be given to the AdMob request 
 ##### hasUserConsent ~^(optional)^~
 _[Boolean][api.type.Boolean]._ If set to `false`, Admob will enable GDPR data collection restrictions, set to `true` for opposite.
 
+##### maxAdContentRating ~^(optional)^~
+_[Boolean][api.type.String]._ maximum raiting for Ad contents. Should be one of `"G"`, `"PG"`, `"T"` or `"MA"`. For details see official [documentation](https://developers.google.com/admob/android/targeting#ad_content_filtering).
+
 
 ## Example
 
