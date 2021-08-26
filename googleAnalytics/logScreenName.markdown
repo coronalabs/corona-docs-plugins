@@ -21,7 +21,7 @@ Logs the screen name with Google Analytics.
 	googleAnalytics.logScreenName( screenName )
 
 ##### screenName ~^(required)^~
-_[String][api.type.String]._ The screen/scene name to log, for example `"main menu"`.
+_[String][api.type.String]._ The screen/scene name to log, for example `"main_menu"`.
 
 
 ## Example
@@ -30,8 +30,8 @@ _[String][api.type.String]._ The screen/scene name to log, for example `"main me
 local googleAnalytics = require( "plugin.googleAnalytics" )
 
 -- Initialize Google Analytics
-googleAnalytics.init( "CoronaApp1", "UA-12345678-90" )
+googleAnalytics.init( )
 
 -- Log screen name with Google Analytics
-googleAnalytics.logScreenName( "main menu" )
+googleAnalytics.logScreenName( "main_menu" )
 ``````

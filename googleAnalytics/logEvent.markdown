@@ -18,16 +18,27 @@ Logs an event with Google Analytics.
 
 ## Syntax
 
-	googleAnalytics.logEvent( category, action [, label] [, value] )
+	googleAnalytics.logEvent( eventName, parameters )
 
-##### category ~^(required)^~
-_[String][api.type.String]._ String which identifies the group of objects to track, for example `"userAction"`.
+##### eventName ~^(required)^~
+_[String][api.type.String]._ String which identifies the group of objects to track, for example `"share_image"`.
+
+##### parameters ~^(required)^~
+_[Table][api.type.Table]._ A table of key value pairs that are added to event, for example  `"{imageType = "png", id=321}"`.
+
+
+## Syntax (Legacy)
+
+	googleAnalytics.logEvent( eventName, action [, label] [, value] )
+
+##### eventName ~^(required)^~
+_[String][api.type.String]._ String which identifies the group of objects to track, for example `"share_image"`.
 
 ##### action ~^(required)^~
-_[String][api.type.String]._ A string which is uniquely paired with the category and is commonly used to define the type of user interaction, for instance `"button press"`.
+_[String][api.type.String]._ A string which is uniquely paired with the event as a parameter `"button_press"`.
 
 ##### label ~^(optional)^~
-_[String][api.type.String]._ An optional string which provides additional dimensions to the event data, for example `"menu"` or `"quit"`.
+_[String][api.type.String]._ An optional string which is uniquely paired with the event as a parameter `"menu"` or `"quit"`.
 
 ##### value ~^(optional)^~
 _[Number][api.type.Number]._ An optional integer which specifies the event value. Values must be <nobr>non-negative</nobr>.
@@ -39,8 +50,11 @@ _[Number][api.type.Number]._ An optional integer which specifies the event value
 local googleAnalytics = require( "plugin.googleAnalytics" )
 
 -- Initialize Google Analytics
-googleAnalytics.init( "CoronaApp1", "UA-12345678-90" )
+googleAnalytics.init()
 
 -- Log event with Google Analytics
-googleAnalytics.logEvent( "userAction", "button press", "menuItem", 2 )
+googleAnalytics.logEvent( "share_image", {imageType = "png", id=321} )
+
+-- Legacy Log event with Google Analytics
+googleAnalytics.logEvent( "user_action", "button_press", "menu_item", 2 )
 ``````

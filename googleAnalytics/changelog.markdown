@@ -1,4 +1,8 @@
 # Changelog
+
+##### 2021-8-26  Scott Harrison
+ * Updated all apis to use firebase, including instructions on index page
+
 ##### 2018-10-04  Pavel Karpov
  * Fixed googleAnalytics.init doc syntax with new optional anonymizeIp param
 
