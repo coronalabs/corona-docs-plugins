@@ -61,8 +61,14 @@ For in-app purchasing on other platforms, see the documentation for [Google IAP]
 #### [store.receiptRequest()][plugin.apple-iap.receiptRequest]
 
 
+#### [store.deferStorePurchases()][plugin.apple-iap.deferStorePurchases]
+#### [store.proceedToPayment()][plugin.apple-iap.proceedToPayment]
+
+
 ## Events
 
 #### [storeTransaction][plugin.apple-iap.event.storeTransaction]
 
 #### [productList][plugin.apple-iap.event.productList]
+
+#### [appStorePurchase][plugin.apple-iap.event.appStorePurchase]
