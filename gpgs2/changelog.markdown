@@ -1,4 +1,7 @@
 # Changelog
+##### 2021-09-04  Scott Harrison
+ * Updating GPGS to latest and removing multiplayer
+
 ##### 2020-03-03  Vlad Shcherban
  * Trying to fix crashes
 
@@ -169,4 +172,3 @@
 
 ##### 2018-08-15  Kirill
  * Initial commit
-

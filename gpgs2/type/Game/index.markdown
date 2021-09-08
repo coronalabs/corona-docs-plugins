@@ -40,7 +40,3 @@ Represents a Google Play game.
 #### [object.themeColor][plugin.gpgs2.type.Game.themeColor]
 
 #### [object.hasGamepadSupport][plugin.gpgs2.type.Game.hasGamepadSupport]
-
-#### [object.isRealTimeMultiplayerEnabled][plugin.gpgs2.type.Game.isRealTimeMultiplayerEnabled]
-
-#### [object.isTurnBasedMultiplayerEnabled][plugin.gpgs2.type.Game.isTurnBasedMultiplayerEnabled]
