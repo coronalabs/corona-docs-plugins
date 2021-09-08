@@ -12,6 +12,17 @@
 
 The [Google Play Games Services](https://marketplace.coronalabs.com/plugin/google-play-games-services) plugin enables access to <nobr>Google Play Games Services</nobr> for game networking, including achievements, leaderboards, multiplayer, quests, videos, and more.
 
+<div class="docs-tip-outer docs-tip-color-alert">
+<div class="docs-tip-inner-left">
+<div class="fa fa-exclamation-circle" style="font-size: 35px;"></div>
+</div>
+<div class="docs-tip-inner-right">
+
+This documentation outlines the legacy Google Play Games Services plugin, primarily intended for Android games using still using multiplayer. For new Android games, you should use [Google Play Games Services v2][plugin.gpgs2] plugin.
+
+</div>
+</div>
+
 <div class="guide-notebox-imp">
 <div class="notebox-title-imp">Important</div>
 
@@ -68,8 +79,6 @@ These core functions manage connection to Google's servers, authentication, and 
 
 #### [gpgs.loadGame()][plugin.gpgs.loadGame]
 
-#### [gpgs.clearNotifications()][plugin.gpgs.clearNotifications]
-
 #### [gpgs.loadImage()][plugin.gpgs.loadImage]
 
 #### [gpgs.showSettings()][plugin.gpgs.showSettings]
@@ -97,13 +106,6 @@ Specific functionality aspects of this plugin are divided into nodes for better 
 
 #### [gpgs.videos][plugin.gpgs.videos]
 
-#### [gpgs.multiplayer][plugin.gpgs.multiplayer]
-
-#### [gpgs.multiplayer.invitations][plugin.gpgs.multiplayer.invitations]
-
-#### [gpgs.multiplayer.realtime][plugin.gpgs.multiplayer.realtime]
-
-#### [gpgs.multiplayer.turnbased][plugin.gpgs.multiplayer.turnbased]
 
 
 ## Events

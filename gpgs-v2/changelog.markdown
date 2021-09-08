@@ -1,4 +1,7 @@
 # Changelog
+##### 2021-09-04  Scott Harrison
+ * Update GPGSv2 to use the latest version and remove multiplayer 
+
 ##### 2018-09-05  Kirill
  * Fixed snapshot getConflict issue
 
@@ -88,4 +91,3 @@
 
 ##### 2018-08-15  Kirill
  * Initial commit
-
