@@ -18,7 +18,7 @@ The [Google Play Games Services](https://marketplace.coronalabs.com/plugin/googl
 </div>
 <div class="docs-tip-inner-right">
 
-This documentation outlines the legacy Google Play Games Services plugin, primarily intended for Android games using still using multiplayer. For new Android games, you should use [Google Play Games Services v2][plugin.gpgs2] plugin.
+This documentation outlines the legacy Google Play Games Services plugin, primarily intended for Android games still using multiplayer. For new Android games, you should use [Google Play Games Services v2][plugin.gpgs2] plugin.
 
 </div>
 </div>

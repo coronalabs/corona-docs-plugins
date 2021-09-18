@@ -4,10 +4,10 @@
 > __Type__              [Function][api.type.Function]
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          analytics, Google Analytics, googleAnalytics, logScreenName
-> __See also__          [googleAnalytics.init()][plugin.googleAnalytics.init]
->						[googleAnalytics.logEvent()][plugin.googleAnalytics.logEvent]
->						[googleAnalytics.*][plugin.googleAnalytics]
+> __Keywords__          analytics, Google Analytics, Google Analytics v2, googleAnalytics, googleAnalytics v2, logScreenName
+> __See also__          [googleAnalytics.init()][plugin.googleAnalytics-v2.init]
+>						[googleAnalytics.logEvent()][plugin.googleAnalytics-v2.logEvent]
+>						[googleAnalytics.*][plugin.googleAnalytics-v2]
 > --------------------- ------------------------------------------------------------------------------------------
 
 
@@ -21,7 +21,7 @@ Logs the screen name with Google Analytics.
 	googleAnalytics.logScreenName( screenName )
 
 ##### screenName ~^(required)^~
-_[String][api.type.String]._ The screen/scene name to log, for example `"main menu"`.
+_[String][api.type.String]._ The screen/scene name to log, for example `"main_menu"`.
 
 
 ## Example
@@ -30,8 +30,8 @@ _[String][api.type.String]._ The screen/scene name to log, for example `"main me
 local googleAnalytics = require( "plugin.googleAnalytics" )
 
 -- Initialize Google Analytics
-googleAnalytics.init( "CoronaApp1", "UA-12345678-90" )
+googleAnalytics.init( )
 
 -- Log screen name with Google Analytics
-googleAnalytics.logScreenName( "main menu" )
+googleAnalytics.logScreenName( "main_menu" )
 ``````

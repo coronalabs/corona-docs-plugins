@@ -3,7 +3,7 @@
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
-> __Keywords__          analytics, Google Analytics, googleAnalytics
+> __Keywords__          analytics, Google Analytics, Google Analytics v2, googleAnalytics, googleAnalytics v2
 > __Platforms__			Android, iOS
 > __Sample__			[https://github.com/coronalabs/plugins-sample-googleAnalytics](https://github.com/coronalabs/plugins-sample-googleAnalytics)
 > --------------------- ------------------------------------------------------------------------------------------
@@ -13,35 +13,29 @@
 
 The Google Analytics plugin lets you measure the value of your app across all stages, discover what keeps users engaged, and learn how to make your app more successful.
 
-<div class="docs-tip-outer docs-tip-color-alert">
-<div class="docs-tip-inner-left">
-<div class="fa fa-exclamation-circle" style="font-size: 35px;"></div>
-</div>
-<div class="docs-tip-inner-right">
+<div class="guide-notebox-imp">
+<div class="notebox-title-imp">Important</div>
 
-This documentation outlines the legacy Google Analytics plugin for mobile apps using non-Firebase Google Analytic. For new apps, you should use [Google Analytics v2][plugin.googleAnalytics-v2] plugin.
-
-</div>
-</div>
+* Google Analytics v2 requires setting up a Firebase account. See [legacy](plugin.googleAnalytics) plugin for non-Firebase Google Analytics
 
 
 ## Registration
 
-Before implementing the Google Analytics plugin, you must [register for Google Analytics](https://analytics.google.com) and obtain the __tracking&nbsp;ID__ for your account.
+Before implementing the Google Analytics plugin, you must [setup a Firebase Project](https://console.firebase.google.com) and add __google-services.json__ for Android and/or add __GoogleService-Info.plist__ for iOS, provided in the Firebase console, to project settings to your Solar2D project's root directory alongside `main.lua`.
 
 
 ## Syntax
 
-	local googleAnalytics = require( "plugin.googleAnalytics" )
+	local googleAnalytics = require( "plugin.googleAnalytics.v2" )
 
 
 ## Functions
 
-#### [googleAnalytics.init()][plugin.googleAnalytics.init]
+#### [googleAnalytics.init()][plugin.googleAnalytics-v2.init]
 
-#### [googleAnalytics.logEvent()][plugin.googleAnalytics.logEvent]
+#### [googleAnalytics.logEvent()][plugin.googleAnalytics-v2.logEvent]
 
-#### [googleAnalytics.logScreenName()][plugin.googleAnalytics.logScreenName]
+#### [googleAnalytics.logScreenName()][plugin.googleAnalytics-v2.logScreenName]
 
 
 ## Project Settings
@@ -51,11 +45,15 @@ To use this plugin, add an entry into the `plugins` table of `build.settings`. W
 ``````lua
 settings =
 {
+	android =
+	{
+				useGoogleServicesJson = true, -- Needed for Android
+	},
 	plugins =
 	{
-		["plugin.googleAnalytics"] =
+		["plugin.googleAnalytics.v2"] =
 		{
-			publisherId = "com.coronalabs"
+			publisherId = "com.solar2d"
 		},
 	},		
 }
@@ -68,6 +66,8 @@ For Android, the following permissions/features are automatically added when usi
 
 * `"android.permission.INTERNET"`
 * `"android.permission.ACCESS_NETWORK_STATE"`
+* `"android.permission.WAKE_LOCK"`
+
 
 </div>
 

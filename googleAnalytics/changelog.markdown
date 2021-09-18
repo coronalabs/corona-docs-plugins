@@ -1,5 +1,9 @@
 # Changelog
 
+##### 2021-9-18  Scott Harrison
+ * Revered plugin to use legacy Google Analytics and added warnings to docs
+
+
 ##### 2021-8-26  Scott Harrison
  * Updated all apis to use firebase, including instructions on index page
 
@@ -90,4 +94,3 @@ Google Analytics plugin not sending scene data
 
 ##### 2016-01-26  Michael Wallar
  * Initial repository state.
-

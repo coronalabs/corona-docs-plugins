@@ -182,8 +182,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 * [Amazon GameCircle][plugin.gamecircle]
 * [Apple Game Center][plugin.gameNetwork-apple]
-* [Google Play Games Services][plugin.gpgs]
-* [Google Play Games Services v2][plugin.gpgs2]
+* [Google Play Games Services][plugin.gpgs2]
 
 </span>
 
@@ -330,7 +329,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 #### [AppsFlyer][plugin.appsflyer]
 #### [Flurry Analytics][plugin.flurry-analytics]
-#### [Google Analytics][plugin.googleAnalytics]
+#### [Google Analytics][plugin.googleAnalytics-v2]
 #### [Kochava][plugin.kochava]
 #### [Kochava Free App Analytics][plugin.kochava-app-analytics]
 #### [Tenjin][plugin.tenjin]
