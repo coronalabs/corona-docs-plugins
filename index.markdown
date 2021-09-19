@@ -152,7 +152,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 * [AppsFlyer][plugin.appsflyer]
 * [Flurry Analytics][plugin.flurry-analytics]
-* [Google Analytics][plugin.googleAnalytics]
+* [Google Analytics][plugin.googleAnalytics-v2]
 * [Kochava][plugin.kochava]
 * [Kochava Free App Analytics][plugin.kochava-app-analytics]
 * [Tenjin][plugin.tenjin]
