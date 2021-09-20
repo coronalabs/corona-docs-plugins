@@ -1,4 +1,4 @@
-# googleAnalytics.* &mdash; Google Analytics
+Google Analytics (Firebase)
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Library][api.type.Library]
