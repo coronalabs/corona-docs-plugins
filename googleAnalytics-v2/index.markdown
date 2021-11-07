@@ -1,4 +1,4 @@
-Google Analytics (Firebase)
+# Google Analytics (Firebase)
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Library][api.type.Library]
@@ -76,3 +76,5 @@ For Android, the following permissions/features are automatically added when usi
 
 * [https://analytics.google.com/](https://analytics.google.com/)
 * [Solar2D Forums](https://forums.solar2d.com/c/corona-marketplace/13)
+
+.
