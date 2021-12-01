@@ -1,4 +1,7 @@
 # Changelog
+##### 2021-11-30 Scott Harrison
+ * Added SetIsAgeRestrictedUser (from Pull Request)
+
 ##### 2019-07-10  Vlad Svoka
  * metadata.lua edited online with Bitbucket
 
@@ -267,4 +270,3 @@ Fixed cleanup iteration bug
 
 ##### 2016-01-26  Michael Wallar
  * Initial repository state.
-

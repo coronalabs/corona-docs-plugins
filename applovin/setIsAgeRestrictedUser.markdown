@@ -1,4 +1,4 @@
-# applovin.setHasUserConsent()
+# applovin.setIsAgeRestrictedUser()
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Function][api.type.Function]
@@ -8,21 +8,21 @@
 > __See also__          [applovin.init()][plugin.applovin.init]
 >						[applovin.load()][plugin.applovin.load]
 >						[applovin.isLoaded()][plugin.applovin.isLoaded]
->						[applovin.setIsAgeRestrictedUser()][plugin.applovin.setIsAgeRestrictedUser]
+>						[applovin.setHasUserConsent()][plugin.applovin.setHasUserConsent]
 >						[applovin.*][plugin.applovin]
 > --------------------- ------------------------------------------------------------------------------------------
 
 
 ## Overview
 
-AppLovin SDK requires that publishers set a flag indicating whether the user has provided the publisher opt-in consent for the collection and use of personal data.
+Used to mark user as age restricted for AppLovin SDK, which is important for Google Play's child policies.
 
 ## Syntax
 
-	applovin.setHasUserConsent( hasUserConsent )
+	applovin.setIsAgeRestrictedUser( shouldAgeRestrictedUser )
 
-##### hasUserConsent ~^(required)^~
-_[Boolean][api.type.Boolean]._ If the user has consented, please set the following flag to `true`, otherwise set it to `false`. The default value is `false`.
+##### shouldAgeRestrictedUser ~^(required)^~
+_[Boolean][api.type.Boolean]._ If the user is underage, please set the following flag to `true`, otherwise set it to `false`. The default value is `false`.
 
 
 ## Example
@@ -33,8 +33,8 @@ local applovin = require( "plugin.applovin" )
 local function adListener( event )
 
 	if ( event.phase == "init" ) then  -- Successful initialization
-		-- Set user consention
-		applovin.setHasUserConsent( true )
+		-- Set age restriction
+		applovin.setIsAgeRestrictedUser( true )
 	end
 end
 

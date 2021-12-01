@@ -74,6 +74,8 @@ To begin, please register with [AppLovin](https://www.applovin.com/signup). Once
 
 #### [applovin.setHasUserConsent()][plugin.applovin.setHasUserConsent]
 
+#### [applovin.setIsAgeRestrictedUser()][plugin.applovin.setIsAgeRestrictedUser]
+
 
 ## Events
 
