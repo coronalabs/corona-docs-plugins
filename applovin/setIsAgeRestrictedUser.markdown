@@ -19,9 +19,9 @@ Used to mark user as age restricted for AppLovin SDK, which is important for Goo
 
 ## Syntax
 
-	applovin.setIsAgeRestrictedUser( shouldAgeRestrictedUser )
+	applovin.setIsAgeRestrictedUser( shouldAgeRestrictUser )
 
-##### shouldAgeRestrictedUser ~^(required)^~
+##### shouldAgeRestrictUser ~^(required)^~
 _[Boolean][api.type.Boolean]._ If the user is underage, please set the following flag to `true`, otherwise set it to `false`. The default value is `false`.
 
 
