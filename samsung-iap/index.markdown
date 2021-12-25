@@ -5,7 +5,7 @@
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          IAP, Samsung IAP, Samsung In App Purchase
 > __Platforms__			Android
-> __Sample__			[https://github.com/coronalabs/plugins-sample-googleAnalytics](https://github.com/coronalabs/plugins-sample-googleAnalytics)
+> __Sample__			[https://github.com/solar2d/plugins-sample-samsung-iap)
 > --------------------- ------------------------------------------------------------------------------------------
 
 
