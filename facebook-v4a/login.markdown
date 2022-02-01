@@ -31,7 +31,7 @@ We strongly recommended that you call [facebook.init()][plugin.facebook-v4a.init
 
 ## Syntax
 
-	facebook.login( [listener] [, permissions] )
+	facebook.login( [listener] [, permissions], [, limitedLogin] )
 
 ##### listener ~^(optional)^~
 _[Listener][api.type.Listener]._ A listener that responds to [fbconnect][plugin.facebook-v4a.event.fbconnect] events. If the listener is a table, it should have a property `"fbconnect"` that is a function.
@@ -39,6 +39,8 @@ _[Listener][api.type.Listener]._ A listener that responds to [fbconnect][plugin.
 ##### permissions ~^(optional)^~
 _[Array][api.type.Array]._ An optional array of strings that correspond to Facebook's publishing [permissions](https://developers.facebook.com/docs/facebook-login/permissions/v2.4#reference). This enables your application to ask the user to grant certain extended permissions to your app. If not supplied, no extended permissions are requested. Use `"publish_actions"` to allow posting to the user's wall. For developer convenience, required permissions such as `"public_profile"` ([reference](https://developers.facebook.com/docs/facebook-login/permissions#reference-public_profile)) and `"user_friends"` ([reference](https://developers.facebook.com/docs/facebook-login/permissions#reference-user_friends)) will be automatically requested if needed.
 
+##### limitedLogin ~^(optional)^~
+_[Boolean][api.type.Boolean]._ default is false, using Limited Login with the app will not be used to personalize or measure advertising effectiveness. Android does not support FB Limited Login.
 
 ## Gotchas
 
