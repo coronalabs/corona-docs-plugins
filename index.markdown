@@ -110,7 +110,7 @@ Interested in [creating a plugin][native.plugin]? Please see our [Plugins][nativ
 
 * [AdColony][plugin.adcolony]
 * [AdMob][plugin.admob]
-* [AppLovin][plugin.applovin]
+* [AppLovin Max][plugin.applovinMax]
 * [Appodeal][plugin.appodeal]
 * [Chartboost][plugin.chartboost]
 * [Facebook Audience Network][plugin.fbAudienceNetwork]
