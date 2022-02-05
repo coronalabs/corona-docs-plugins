@@ -10,22 +10,13 @@
 
 ## Overview
 
-<!---
-
-<div class="float-right" style="max-width: 240px; clear: both;">
-
-![][images.docs.plugin-screenshot-applovin]
-
-</div>
-
--->
 
 The AppLovin Max plugin allows developers to monetize users and use mediation through [AppLovin Max](https://www.applovin.com/max/) static interstitial, video interstitial, and rewarded video ads.
 
 <div class="guide-notebox">
 <div class="notebox-title">Notes</div>
 
-* For the legacy non Max plugin click [here][plugin.appLovin]
+* For the legacy non-Max plugin click [here][plugin.applovin]
 
 * The main api differences between legacy are: Sdk Keys are moved into [project settings](#settings), platform specific unitIds are required in [applovinMax.load()][plugin.applovinMax.load], and a few have [phases][plugin.applovinMax.event.adsRequest.phase] changed.
 
@@ -263,7 +254,7 @@ settings =
 	{
 		["plugin.applovinMax"] =
 		{
-			publisherId = "com.coronalabs"
+			publisherId = "com.solar2d"
 		},
 	},
 }
