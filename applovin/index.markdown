@@ -22,6 +22,18 @@
 
 The AppLovin plugin allows developers to monetize users through [AppLovin](https://www.applovin.com/) static interstitial, video interstitial, and rewarded video ads.
 
+
+<div class="docs-tip-outer docs-tip-color-alert">
+<div class="docs-tip-inner-left">
+<div class="fa fa-exclamation-circle" style="font-size: 35px;"></div>
+</div>
+<div class="docs-tip-inner-right">
+
+This documentation outlines the legacy AppLovin plugin, primarily intended for iOS and Android that use the old api and non-Max(aka non-mediation) in their apps.
+
+</div>
+</div>
+
 <div class="guide-notebox">
 <div class="notebox-title">Notes</div>
 
