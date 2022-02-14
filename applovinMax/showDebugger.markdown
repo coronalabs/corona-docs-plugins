@@ -25,23 +25,6 @@ Will show a pop up on iOS and Android that show mediation integration, SDK versi
 ``````lua
 local applovinMax = require( "plugin.applovinMax" )
 
-local function adListener( event )
-
-	if ( event.phase == "init" ) then  -- Successful initialization
-		print( event.isError )
-		-- Load an AppLovin ad
-		applovinMax.load( "interstitial",  {iOSUnitId ="replace with your own", androidUnitId="replace with your own"} )
-
-	elseif ( event.phase == "loaded" ) then  -- The ad was successfully loaded
-		print( event.type )
-
-	elseif ( event.phase == "failed" ) then  -- The ad failed to load
-		print( event.type )
-		print( event.isError )
-		print( event.response )
-	end
-end
-
 -- Initialize the AppLovin plugin
 applovinMax.init( adListener )
 

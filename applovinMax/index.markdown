@@ -28,6 +28,8 @@ The AppLovin Max plugin allows developers to monetize users and use mediation th
 
 * If you use the plugin and make changes to the ad settings in the [AppLovin developer portal](https://www.applovin.com/manage)
 
+* Applovin Max contains various SDKs for the ad providers it mediates. This means that you can __not__ use Applovin Max in conjunction with [AdColony][plugin.adcolony], [AdMob][plugin.admob], [Chartboost][plugin.chartboost], [Facebook Audience Network][plugin.fbAudienceNetwork], [InMobi][plugin.inmobi], [Unity Ads][plugin.unityads], or [Vungle][plugin.vungle].
+
 </div>
 
 <div class="guide-notebox-imp">
@@ -71,6 +73,8 @@ To begin, please register with [AppLovin Max](https://www.applovin.com/signup). 
 
 #### [applovinMax.setIsAgeRestrictedUser()][plugin.applovinMax.setIsAgeRestrictedUser]
 
+#### [applovinMax.showDebugger()][plugin.applovinMax.showDebugger]
+
 
 ## Events
 
@@ -81,13 +85,14 @@ To begin, please register with [AppLovin Max](https://www.applovin.com/signup). 
 
 ## Project Settings
 
+
 To use this plugin, add an entry into the `plugins` table of `build.settings`. When added, the build server will integrate the plugin during the build phase. Also add your Sdk keys for Android and/or iOS as seen below.
 
 <div id="example">
 
-##### AppLovin
+##### AppLovin Max
 
-``````{ brush="lua" gutter="false" first-line="1" highlight="[5,6,7,8]" }
+``````{ brush="lua" gutter="false" first-line="1" highlight="[9,18]" }
 settings =
 {
 	android =
@@ -96,7 +101,6 @@ settings =
 		{
 				-- Array of strings
 				[[
-
 					<meta-data android:name="applovin.sdk.key" android:value="XXXXXXXXXXXXX"/>
 				]],
 				---- replace XXXXXXXXXXXXX with your Android Applovin SDK key
@@ -107,6 +111,7 @@ settings =
 		plist =
 		{
 			AppLovinSdkKey = "XXXXXXXXXXXXX", -- replace XXXXXXXXXXXXX with your iOS Applovin SDK key
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
 			NSUserTrackingUsageDescription = "This only uses device info for less annoying, more relevant ads.",
 			SKAdNetworkItems = {
 				{SKAdNetworkIdentifier= "275upjj5gd.skadnetwork"},
@@ -252,12 +257,63 @@ settings =
 	},
 	plugins =
 	{
+		-- Base
 		["plugin.applovinMax"] =
 		{
 			publisherId = "com.solar2d"
 		},
+
+		--Adapters
+		["plugin.applovinMax.AdColony"] = {publisherId = "com.solar2d"},
+	 	["plugin.applovinMax.Chartboost"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Facebook"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Fyber"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.GoogleAdMob"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.HyprMX"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.InMobi"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.IronSource"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Maio"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Mintegral"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.MyTarget"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Ogury"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Pangle"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Smaato"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.Tapjoy"] = {publisherId = "com.solar2d"},
+		["plugin.applovinMax.UnityAds"] = {publisherId = "com.solar2d"},
+
+
 	},
 }
+``````
+
+</div>
+
+<div id="cleartext">
+
+##### Android Cleartext
+
+Some adapters require you to add a `network_security_config.xml` your `AndroidResources/res/xml` folder. If some or none of these folders exist, please add them to your project.
+
+``````{ brush="xml" gutter="false" first-line="1"  }
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+
+    <!-- For AdColony and Smaato, this permits all cleartext traffic: -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+    <!-- End AdColony / Smaato section -->
+
+    <domain-config cleartextTrafficPermitted="true">
+
+        <!-- For Meta Audience Network, this permits cleartext traffic to localhost: -->
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <!-- End Meta Audience Network section -->
+
+    </domain-config>
+</network-security-config>
 ``````
 
 </div>
@@ -275,4 +331,4 @@ For Android, the following permissions/features are automatically added when usi
 
 ## Sample project
 
-* [View on GitHub](https://github.com/coronalabs/plugins-sample-applovin)
+* [View on GitHub](https://github.com/solar2d/com.solar2d-plugin.applovinMax/tree/master/src/Corona)
