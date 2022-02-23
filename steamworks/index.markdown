@@ -111,6 +111,7 @@ application =
 
 #### [steamworks.showWebOverlay()][plugin.steamworks.showWebOverlay]
 
+#### [steamworks.getAuthSessionTicket()][plugin.steamworks.getAuthSessionTicket]
 
 ## Properties
 
@@ -150,8 +151,6 @@ application =
 #### [userProgressUnload][plugin.steamworks.event.userProgressUnload]
 
 #### [userProgressUpdate][plugin.steamworks.event.userProgressUpdate]
-
-#### [getAuthSessionTicket][plugin.steamworks.event.getAuthSessionTicket]
 
 ## Types
 
