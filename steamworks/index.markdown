@@ -151,6 +151,7 @@ application =
 
 #### [userProgressUpdate][plugin.steamworks.event.userProgressUpdate]
 
+#### [getAuthSessionTicket][plugin.steamworks.event.getAuthSessionTicket]
 
 ## Types
 
